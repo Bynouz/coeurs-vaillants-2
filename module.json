@@ -1,0 +1,76 @@
+{
+  "id": "coeurs-vaillants-2",
+  "title": "Coeurs Vaillants 2",
+  "version": "1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "custom-system-builder",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "LBenoit",
+      "email": "Bynouz330@hotmail.fr",
+      "discord": "Bynouz"
+    }
+  ],
+  "esmodules": ["coeurs-vaillants-2.mjs"],
+
+  "packs": [
+    {
+      "name": "TEMPLATES_ACTEUR",
+      "label": "CV2-TEMPLATES_ACTEURS",
+      "path": "packs/TEMPLATES_ACTEUR",
+      "type": "Actor",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "TEMPLATE_ITEM",
+      "label": "CV2-TEMPLATES_ITEMS",
+      "path": "packs/TEMPLATE_ITEM",
+      "type": "Item",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cv2-bdb",
+      "label": "CV2-BdB",
+      "path": "packs/cv2-bdb",
+      "type": "Item",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cv2-nighthowl",
+      "label": "CV2-NightHowl",
+      "path": "packs/cv2-nighthowl",
+      "type": "Item",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "https://gitlab.com/bynouz330/coeurs-vaillants-2",
+  "manifest": "https://gitlab.com/bynouz330/coeurs-vaillants-2/-/raw/main/module.json",
+  "download": "https://gitlab.com/bynouz330/coeurs-vaillants-2/-/archive/1.0.0/coeurs-vaillants-2.zip"
+}
