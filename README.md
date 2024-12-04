@@ -25,7 +25,7 @@ Il est conçu pour fonctionner exclusivement avec le système Custom System Buil
 * Discord : Bynouz
 
 Ce module est basé sur l'œuvre originale de John Grumph, créateur du jeu Cœurs Vaillants. 
-Un grand merci pour son travail et son autorisation d'utiliser ce système.
+Un grand merci pour son travail et son autorisation de publier le système.
 
 ## Remarques importantes
 
