@@ -1,0 +1,251 @@
+folder: xhEzpH4vgqRQcyBo
+name: FÉDÉRAL
+type: equippableItem
+_id: 2zMsObEHzKndPPbk
+img: modules/coeurs-vaillants-2/icone/night-howl/diplome.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: /
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: /
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: >-
+                <p>Recopier l'usuel choisie &agrave; la cr&eacute;ation de
+                l'aventurier.</p>
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: choix01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+          - - key: choix02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+          - - null
+            - null
+          - - null
+        cols: 2
+        rows: 2
+        layout: ''
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: dVv9fdRFsu4UUbJ0
+  props:
+    name: FÉDÉRAL
+    choix_01: false
+    choix_02: false
+    atour: >-
+      <p>Ton aventurier est un agent f&eacute;d&eacute;ral,
+      d&eacute;tach&eacute; aupr&egrave;s du LAPD<br>comme liaison pour suivre
+      certaines affaires plus ou moins prot&eacute;g&eacute;es,<br>transmettre
+      des techniques et des savoirs, superviser l&rsquo;usage<br>de ressources
+      technologiques ou d&rsquo;informateurs particuliers ou<br>simplement
+      tenter de s&rsquo;attacher les faveurs des simples policiers<br>de la rue
+      toujours jaloux des aristocrates de la loi et de l&rsquo;ordre.<br></p>
+    choix01: >-
+      <p><strong>Appuis politiques.</strong> Ton aventurier
+      b&eacute;n&eacute;ficie de protections<br>haut plac&eacute;es au niveau
+      national.<br></p>
+    choix02: >-
+      <p><strong>Vieille monnaie. </strong>La famille de ton aventurier est
+      fortun&eacute;e<br>et il en profite &agrave; chaque fois que
+      possible.<br></p>
+    prouesse: >-
+      <p><strong>Poids lourd (1PA).</strong> Ton aventurier fait jouer tout le
+      poids de son<br>agence pour d&eacute;bloquer une situation ou exercer des
+      pressions l&agrave; o&ugrave; c&rsquo;est<br>n&eacute;cessaire &ndash;
+      menace de poursuites f&eacute;d&eacute;rales, acc&egrave;s &agrave; des
+      ressources, des<br>archives ou des lieux utiles et ainsi de suite.</p>
+    QQ: /
+    RR: /
+    usuel: >-
+      <p>Recopier l'usuel choisie &agrave; la cr&eacute;ation de
+      l'aventurier.</p>
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: 2zMsObEHzKndPPbk
+  templateSystemUniqueVersion: 153527794
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.1.1
+  createdTime: 1732291056187
+  modifiedTime: 1732291056187
+  lastModifiedBy: z78nMmVCAe8LCaSO
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!2zMsObEHzKndPPbk'
+

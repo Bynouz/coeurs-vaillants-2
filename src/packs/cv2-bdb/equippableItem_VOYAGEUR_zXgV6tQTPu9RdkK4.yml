@@ -1,0 +1,165 @@
+folder: foSPMSELozWMPCRB
+name: VOYAGEUR
+type: equippableItem
+img: modules/coeurs-vaillants-2/icone/bdb/origine.webp
+system:
+  hidden: []
+  header:
+    contents: []
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: choix01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour choix 1
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+            - null
+          - - key: choix02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour choix 2
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        cols: 2
+        rows: 4
+        layout: lc
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: dVv9fdRFsu4UUbJ0
+  props:
+    name: VOYAGEUR
+    choix_01: false
+    choix_02: false
+    atour: >-
+      <p>Ton aventurier a grandi au gr&eacute; des voyages et des
+      d&eacute;placements&nbsp;de ses parents, par n&eacute;cessit&eacute;
+      professionnelle, par go&ucirc;t ou&nbsp;par obligation. Il a connu
+      d&rsquo;innombrables endroits et pays, sans&nbsp;jamais s&rsquo;enraciner
+      nulle part.</p>
+    choix01: >-
+      <p><strong>Organis&eacute;.</strong> Ton aventurier pr&eacute;pare ses
+      bagages en un instant&nbsp;et n&rsquo;oublie jamais rien.</p>
+    choix02: >-
+      <p><strong>Polyglotte. </strong>Ton aventurier a d&ucirc; apprendre
+      &agrave; se d&eacute;brouiller&nbsp;dans de tr&egrave;s nombreuses
+      langues.</p>
+    prouesse: >-
+      <p><strong>Bonne fortune (1PA).</strong> Ton aventurier r&eacute;ussit
+      automatiquement&nbsp;un jet de chance.</p>
+  modifiers: []
+  unique: true
+  uniqueId: zXgV6tQTPu9RdkK4
+  templateSystemUniqueVersion: 4051763885
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_id: zXgV6tQTPu9RdkK4
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!zXgV6tQTPu9RdkK4'
+

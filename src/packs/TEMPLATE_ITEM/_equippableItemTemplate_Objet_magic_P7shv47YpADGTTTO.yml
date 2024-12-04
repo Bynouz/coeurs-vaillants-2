@@ -1,0 +1,1550 @@
+_id: P7shv47YpADGTTTO
+name: Objet magic
+type: _equippableItemTemplate
+system:
+  hidden: []
+  header:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: panel
+        contents:
+          - key: SS
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: Equipé ?
+            size: full-size
+            defaultChecked: false
+          - key: usuel_test
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: Usuel ?
+            size: full-size
+            defaultChecked: false
+        flow: grid-2
+        align: center
+        collapsible: false
+        defaultCollapsed: false
+        title: ''
+        titleStyle: default
+    key: custom_header
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: panel
+        contents:
+          - key: ''
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: table
+            contents:
+              - - key: atour
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: textArea
+                  label: Atour
+                  defaultValue: ''
+                  size: full-size
+                  style: dialog
+                - null
+                - null
+              - - key: usuel
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textArea
+                  label: Usuel
+                  defaultValue: ''
+                  size: full-size
+                  style: dialog
+                - null
+                - null
+              - - key: prouesse
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textArea
+                  label: Prouesse
+                  defaultValue: ''
+                  size: full-size
+                  style: dialog
+                - null
+            cols: 1
+            rows: 3
+            layout: lc
+          - key: ''
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: usuel_test >0
+            type: table
+            contents:
+              - - key: QQ
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textField
+                  label: Usage
+                  defaultValue: '0'
+                  size: medium
+                  charList: ''
+                  autocomplete: ''
+                - key: RR
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textField
+                  label: Max
+                  defaultValue: '0'
+                  size: medium
+                  charList: ''
+                  autocomplete: ''
+              - - null
+                - null
+            cols: 2
+            rows: 1
+            layout: cc
+        flow: vertical
+        align: center
+        collapsible: false
+        defaultCollapsed: false
+        title: ''
+        titleStyle: default
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: panel
+        contents:
+          - key: type_obj
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: textField
+            label: type
+            defaultValue: ''
+            size: full-size
+            charList: ''
+            autocomplete: ''
+          - key: bonus_OM
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: textField
+            label: Bonus
+            defaultValue: ''
+            size: full-size
+            charList: ''
+            autocomplete: ''
+          - key: YY
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: numberField
+            label: Prix
+            defaultValue: ''
+            size: medium
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: false
+            showControls: false
+            controlsStyle: hover
+            inputStyle: text
+        flow: grid-2
+        align: center
+        collapsible: false
+        defaultCollapsed: true
+        title: ''
+        titleStyle: default
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  templateSystemUniqueVersion: 147771879
+  uniqueId: P7shv47YpADGTTTO
+flags:
+  custom-system-builder:
+    version: 3.2.4
+    templateHistory:
+      - - kind: A
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+          index: 1
+          item:
+            kind: D
+            lhs:
+              key: usuel_test
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: Usuel ?
+              size: full-size
+              defaultChecked: false
+        - kind: E
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - key
+          lhs: SS
+          rhs: usuel_test
+        - kind: E
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - label
+          lhs: Equipé ?
+          rhs: Usuel ?
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 0
+            - maxLength
+      - - kind: A
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+          index: 0
+          item:
+            kind: D
+            lhs:
+              key: usuel_test
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: Usuel ?
+              size: full-size
+              defaultChecked: false
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 0
+            - maxLength
+      - - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 0
+            - maxLength
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 1
+          item:
+            kind: D
+            lhs:
+              key: ''
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: table
+              contents:
+                - - key: QQ
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: usuel_test >0
+                    type: numberField
+                    label: Usage
+                    defaultValue: '0'
+                    size: m-small
+                    allowDecimal: false
+                    minVal: ''
+                    maxVal: ''
+                    allowRelative: false
+                    showControls: true
+                    controlsStyle: hover
+                    inputStyle: text
+                  - key: RR
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: usuel_test >0
+                    type: numberField
+                    label: Max
+                    defaultValue: '0'
+                    size: m-small
+                    allowDecimal: false
+                    minVal: ''
+                    maxVal: ''
+                    allowRelative: false
+                    showControls: true
+                    controlsStyle: hover
+                    inputStyle: text
+                - - null
+                  - null
+              cols: 2
+              rows: 1
+              layout: cc
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - key
+          lhs: usuel
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - type
+          lhs: textArea
+          rhs: table
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - label
+          lhs: Usuel
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - size
+          lhs: full-size
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - style
+          lhs: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+          rhs:
+            - - key: QQ
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: numberField
+                label: Usage
+                defaultValue: '0'
+                size: m-small
+                allowDecimal: false
+                minVal: ''
+                maxVal: ''
+                allowRelative: false
+                showControls: true
+                controlsStyle: hover
+                inputStyle: text
+              - key: RR
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: numberField
+                label: Max
+                defaultValue: '0'
+                size: m-small
+                allowDecimal: false
+                minVal: ''
+                maxVal: ''
+                allowRelative: false
+                showControls: true
+                controlsStyle: hover
+                inputStyle: text
+            - - null
+              - null
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - cols
+          rhs: 2
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - rows
+          rhs: 1
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - layout
+          rhs: cc
+      - - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 0
+            - maxLength
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 0
+          item:
+            kind: D
+            lhs:
+              key: ''
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: table
+              contents:
+                - - key: QQ
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: usuel_test >0
+                    type: numberField
+                    label: Usage
+                    defaultValue: '0'
+                    size: m-small
+                    allowDecimal: false
+                    minVal: ''
+                    maxVal: ''
+                    allowRelative: false
+                    showControls: true
+                    controlsStyle: hover
+                    inputStyle: text
+                  - key: RR
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: usuel_test >0
+                    type: numberField
+                    label: Max
+                    defaultValue: '0'
+                    size: m-small
+                    allowDecimal: false
+                    minVal: ''
+                    maxVal: ''
+                    allowRelative: false
+                    showControls: true
+                    controlsStyle: hover
+                    inputStyle: text
+                - - null
+                  - null
+              cols: 2
+              rows: 1
+              layout: cc
+      - - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 0
+            - maxLength
+      - - kind: A
+          path:
+            - body
+            - contents
+          index: 2
+          item:
+            kind: D
+            lhs:
+              key: special_text
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - key
+          lhs: ''
+          rhs: special_text
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - type
+          lhs: panel
+          rhs: textArea
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+          lhs:
+            - key: type_obj
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: type
+              defaultValue: ''
+              size: full-size
+              charList: ''
+              autocomplete: ''
+            - key: bonus_OM
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Bonus
+              defaultValue: ''
+              size: full-size
+              charList: ''
+              autocomplete: ''
+            - key: YY
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: numberField
+              label: Prix
+              defaultValue: ''
+              size: medium
+              allowDecimal: false
+              minVal: ''
+              maxVal: ''
+              allowRelative: false
+              showControls: false
+              controlsStyle: hover
+              inputStyle: text
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - flow
+          lhs: grid-2
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - align
+          lhs: center
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - collapsible
+          lhs: false
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - defaultCollapsed
+          lhs: true
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - title
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - titleStyle
+          lhs: default
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - label
+          rhs: Description
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - defaultValue
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - size
+          rhs: full-size
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - style
+          rhs: dialog
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - visibilityFormula
+          lhs: usuel_test >0
+          rhs: ''
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 2
+          item:
+            kind: 'N'
+            rhs:
+              key: YY
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: numberField
+              label: Prix
+              defaultValue: ''
+              size: medium
+              allowDecimal: false
+              minVal: ''
+              maxVal: ''
+              allowRelative: false
+              showControls: false
+              controlsStyle: hover
+              inputStyle: text
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 1
+          item:
+            kind: 'N'
+            rhs:
+              key: bonus_OM
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Bonus
+              defaultValue: ''
+              size: full-size
+              charList: ''
+              autocomplete: ''
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 0
+          item:
+            kind: 'N'
+            rhs:
+              key: type_obj
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: type
+              defaultValue: ''
+              size: full-size
+              charList: ''
+              autocomplete: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - flow
+          lhs: vertical
+          rhs: grid-2
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - defaultCollapsed
+          lhs: false
+          rhs: true
+      - - kind: A
+          path:
+            - header
+            - contents
+          index: 0
+          item:
+            kind: D
+            lhs:
+              key: ''
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: panel
+              contents: []
+              flow: grid-2
+              align: center
+              collapsible: false
+              defaultCollapsed: false
+              title: ''
+              titleStyle: default
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - maxLength
+      - - kind: A
+          path:
+            - header
+            - contents
+          index: 0
+          item:
+            kind: 'N'
+            rhs:
+              key: ''
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: panel
+              contents:
+                - key: SS
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: checkbox
+                  label: Equipé ?
+                  size: full-size
+                  defaultChecked: false
+                - key: usuel_test
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: checkbox
+                  label: Usuel ?
+                  size: full-size
+                  defaultChecked: false
+              flow: grid-2
+              align: center
+              collapsible: false
+              defaultCollapsed: false
+              title: ''
+              titleStyle: default
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - maxLength
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 1
+            - defaultValue
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+        - kind: A
+          path:
+            - body
+            - contents
+          index: 2
+          item:
+            kind: 'N'
+            rhs:
+              key: special_text
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - key
+          lhs: special_text
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - type
+          lhs: textArea
+          rhs: panel
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - label
+          lhs: Description
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - defaultValue
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - size
+          lhs: full-size
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - style
+          lhs: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+          rhs:
+            - key: type_obj
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: type
+              defaultValue: ''
+              size: full-size
+              charList: ''
+              autocomplete: ''
+            - key: bonus_OM
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Bonus
+              defaultValue: ''
+              size: full-size
+              charList: ''
+              autocomplete: ''
+            - key: YY
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: numberField
+              label: Prix
+              defaultValue: ''
+              size: medium
+              allowDecimal: false
+              minVal: ''
+              maxVal: ''
+              allowRelative: false
+              showControls: false
+              controlsStyle: hover
+              inputStyle: text
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - flow
+          rhs: grid-2
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - align
+          rhs: center
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - collapsible
+          rhs: false
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - defaultCollapsed
+          rhs: true
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - title
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - titleStyle
+          rhs: default
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 2
+          item:
+            kind: D
+            lhs:
+              key: YY
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: numberField
+              label: Prix
+              defaultValue: ''
+              size: medium
+              allowDecimal: false
+              minVal: ''
+              maxVal: ''
+              allowRelative: false
+              showControls: false
+              controlsStyle: hover
+              inputStyle: text
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - key
+          lhs: bonus_OM
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - visibilityFormula
+          lhs: ''
+          rhs: usuel_test >0
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - type
+          lhs: textField
+          rhs: table
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - label
+          lhs: Bonus
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - defaultValue
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - size
+          lhs: full-size
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - charList
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - autocomplete
+          lhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+          rhs:
+            - - key: QQ
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textField
+                label: Usage
+                defaultValue: '0'
+                size: medium
+                charList: ''
+                autocomplete: ''
+              - key: RR
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textField
+                label: Max
+                defaultValue: '0'
+                size: medium
+                charList: ''
+                autocomplete: ''
+            - - null
+              - null
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - cols
+          rhs: 2
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - rows
+          rhs: 1
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - layout
+          rhs: cc
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - key
+          lhs: type_obj
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - type
+          lhs: textField
+          rhs: table
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - label
+          lhs: type
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - size
+          lhs: full-size
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - charList
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - autocomplete
+          lhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+          rhs:
+            - - key: atour
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: ''
+                type: textArea
+                label: Atour
+                defaultValue: ''
+                size: full-size
+                style: dialog
+              - null
+              - null
+            - - key: usuel
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textArea
+                label: Usuel
+                defaultValue: ''
+                size: full-size
+                style: dialog
+              - null
+              - null
+            - - key: prouesse
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textArea
+                label: Prouesse
+                defaultValue: ''
+                size: full-size
+                style: dialog
+              - null
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - cols
+          rhs: 1
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - rows
+          rhs: 3
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - layout
+          rhs: lc
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - flow
+          lhs: grid-2
+          rhs: vertical
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - defaultCollapsed
+          lhs: true
+          rhs: false
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 1
+            - defaultValue
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+        - kind: A
+          path:
+            - body
+            - contents
+          index: 2
+          item:
+            kind: D
+            lhs:
+              key: special_text
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 0
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 0
+            - maxLength
+    templateHistoryRedo: []
+img: icons/svg/item-bag.svg
+effects: []
+folder: MKfDTzs1HtvBbbaf
+sort: 500000
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1732711742411
+  modifiedTime: 1732711742411
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_key: '!items!P7shv47YpADGTTTO'
+

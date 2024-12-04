@@ -1,0 +1,178 @@
+folder: I4MpUMIHOLy4ngxR
+name: Main nue
+type: equippableItem
+_id: auEqOa9HOjC088SS
+img: icons/skills/melee/unarmed-punch-fist.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: panel
+        contents:
+          - key: maitre_test
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: Maître ?
+            size: full-size
+            defaultChecked: false
+        flow: vertical
+        align: center
+        collapsible: false
+        defaultCollapsed: false
+        title: ''
+        titleStyle: default
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    visibilityFormula: null
+    flow: vertical
+    align: ''
+    type: panel
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - null
+            - null
+            - null
+          - - null
+            - null
+        cols: 1
+        rows: 1
+        layout: lc
+      - key: Arme_panel_objet
+        cssClass: ''
+        role: '1'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: null
+        type: panel
+        contents:
+          - key: dmg_arme_num_item
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: null
+            type: textField
+            label: Dégât
+            defaultValue: ''
+            size: medium
+            charList: ''
+            maxLength: ''
+            autocomplete: ''
+          - key: bonus_num
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: numberField
+            label: Bonus d'attaque
+            defaultValue: '0'
+            size: medium
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: false
+            showControls: false
+            controlsStyle: hover
+            inputStyle: text
+        flow: grid-3
+        align: center
+        collapsible: false
+        defaultCollapsed: true
+        title: ''
+        titleStyle: default
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: null
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: YlX23WGdpXWghPuq
+  props:
+    name: Main nue
+    bonus_num: '0'
+    dmg_arme_num_item: 1d8+1d4+3
+    maitre_test: false
+    atour: >-
+      <p>Tous les aventuriers pratiquent un art martial &ndash; boxe, savate,
+      judo, jiu-jitsu,&nbsp;karat&eacute;, kung-fu et ainsi de suite.</p>
+
+      <p>Ton aventurier inflige 1d8+1d4+3 d&eacute;g&acirc;ts &agrave; mains
+      nues, mais il ne peut tuer personne. <br>S&rsquo;il obtient au moins un
+      r&eacute;sultat de 1 sur l&rsquo;un des d&eacute;s de d&eacute;g&acirc;ts,
+      il place un truc de combat, mais l&rsquo;adversaire peut toujours
+      effectuer un jet de sauvegarde quel que soit son niveau.</p>
+  modifiers: []
+  unique: false
+  uniqueId: auEqOa9HOjC088SS
+  templateSystemUniqueVersion: 1973750266
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.1.1
+  createdTime: 1732291056187
+  modifiedTime: 1732291056187
+  lastModifiedBy: z78nMmVCAe8LCaSO
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!auEqOa9HOjC088SS'
+

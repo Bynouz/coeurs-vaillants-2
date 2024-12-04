@@ -1,0 +1,248 @@
+folder: xhEzpH4vgqRQcyBo
+name: ANCIEN MILITAIRE
+type: equippableItem
+_id: hM6EMgKO1ZzMHBNN
+img: modules/coeurs-vaillants-2/icone/night-howl/diplome.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: /
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: /
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: >-
+                <p>Recopier l'usuel choisie &agrave; la cr&eacute;ation de
+                l'aventurier.</p>
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: choix01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+          - - key: choix02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+          - - null
+            - null
+          - - null
+        cols: 2
+        rows: 2
+        layout: ''
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: dVv9fdRFsu4UUbJ0
+  props:
+    name: ANCIEN MILITAIRE
+    choix_01: false
+    choix_02: false
+    atour: >-
+      <p>Ton aventurier a servi dans les forces arm&eacute;es et a
+      effectu&eacute; un<br>ou plusieurs tours sur les terrains
+      d&rsquo;op&eacute;ration ext&eacute;rieure, y acqu&eacute;rant<br>des
+      comp&eacute;tences utiles, des r&eacute;flexes salvateurs et sans<br>doute
+      quelques vestiges post-traumatiques qu&rsquo;il lui faut
+      combattre<br>maintenant qu&rsquo;il est de retour dans la vie civile.
+      Toutefois,<br>le LAPD est ce qui est le plus proche de la vie militaire
+      qu&rsquo;il a<br>connue jadis.</p>
+    choix01: >-
+      <p><strong>Forces sp&eacute;ciales.</strong> Ton aventurier est un ancien
+      des forces<br>sp&eacute;ciales, quoi que cela puisse vouloir dire.<br></p>
+    choix02: >-
+      <p><strong>Pilote. </strong>Ton aventurier sait piloter avions et
+      h&eacute;licopt&egrave;res.<br></p>
+    prouesse: >-
+      <p><strong>Opini&acirc;tre (1PA). </strong>Ton aventurier relance un jet
+      de r&eacute;solution de<br>son choix (mais sans b&eacute;n&eacute;ficier
+      de l&rsquo;avantage).</p>
+    QQ: /
+    RR: /
+    usuel: >-
+      <p>Recopier l'usuel choisie &agrave; la cr&eacute;ation de
+      l'aventurier.</p>
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: hM6EMgKO1ZzMHBNN
+  templateSystemUniqueVersion: 153527794
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.1.1
+  createdTime: 1732291056187
+  modifiedTime: 1732291056187
+  lastModifiedBy: z78nMmVCAe8LCaSO
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!hM6EMgKO1ZzMHBNN'
+

@@ -1,0 +1,20 @@
+name: BdB
+sorting: a
+folder: null
+type: Item
+_id: dA8fFsZyV2h89NZw
+description: ''
+sort: 0
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001344939
+  modifiedTime: 1733001344939
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_key: '!folders!dA8fFsZyV2h89NZw'
+

@@ -1,0 +1,2258 @@
+_id: zwYKvs7oLXGXMFj5
+name: Arme distance
+type: _equippableItemTemplate
+system:
+  hidden: []
+  header:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: panel
+        contents:
+          - key: SS
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: Equipé ?
+            size: full-size
+            defaultChecked: false
+          - key: usuel_test
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: Usuel ?
+            size: full-size
+            defaultChecked: false
+          - key: maitre_test
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: Maître ?
+            size: full-size
+            defaultChecked: false
+        flow: grid-3
+        align: center
+        collapsible: false
+        defaultCollapsed: false
+        title: ''
+        titleStyle: default
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    visibilityFormula: null
+    flow: vertical
+    align: ''
+    type: panel
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: panel
+        contents:
+          - key: ''
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: table
+            contents:
+              - - key: atour
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: textArea
+                  label: Atour
+                  defaultValue: ''
+                  size: full-size
+                  style: dialog
+                - null
+                - null
+              - - cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textArea
+                  key: usuel
+                  label: Usuel
+                  defaultValue: ''
+                  size: full-size
+                  style: dialog
+                - null
+                - null
+              - - key: prouesse
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textArea
+                  label: Prouesse
+                  defaultValue: ''
+                  size: full-size
+                  style: dialog
+                - null
+            cols: 1
+            rows: 3
+            layout: lc
+          - key: ''
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: usuel_test >0
+            type: table
+            contents:
+              - - key: QQ
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textField
+                  label: Usage
+                  defaultValue: '0'
+                  size: medium
+                  charList: ''
+                  autocomplete: ''
+                - key: RR
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textField
+                  label: Max
+                  defaultValue: '0'
+                  size: medium
+                  charList: ''
+                  autocomplete: ''
+              - - null
+                - null
+            cols: 2
+            rows: 1
+            layout: cc
+        flow: vertical
+        align: center
+        collapsible: false
+        defaultCollapsed: false
+        title: ''
+        titleStyle: default
+      - key: Arme_panel_objet
+        cssClass: ''
+        role: '1'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: null
+        type: panel
+        contents:
+          - key: dmg_arme_num_item
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: textField
+            label: Dégât
+            defaultValue: '0'
+            size: medium
+            charList: ''
+            autocomplete: ''
+          - key: bonus_num
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: null
+            type: numberField
+            label: Bonus d'attaque
+            defaultValue: '0'
+            size: medium
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: false
+            showControls: false
+            controlsStyle: hover
+            inputStyle: text
+          - key: type_liste
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: select
+            label: Type
+            defaultValue: '3'
+            size: medium
+            selectedOptionType: custom
+            options:
+              - key: '1'
+                value: Légère
+              - key: '2'
+                value: Lourde
+              - key: '3'
+                value: Moyenne
+          - key: JJ
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: numberField
+            label: Prix
+            defaultValue: '0'
+            size: medium
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: false
+            showControls: true
+            controlsStyle: hover
+            inputStyle: text
+        flow: grid-3
+        align: center
+        collapsible: false
+        defaultCollapsed: true
+        title: ''
+        titleStyle: default
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: null
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  templateSystemUniqueVersion: 1521003160
+  uniqueId: zwYKvs7oLXGXMFj5
+flags:
+  custom-system-builder:
+    version: 3.2.4
+    templateHistory:
+      - - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 0
+            - maxLength
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 1
+          item:
+            kind: D
+            lhs:
+              key: ''
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: table
+              contents:
+                - - key: QQ
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: usuel_test >0
+                    type: textField
+                    label: Usage
+                    defaultValue: '0'
+                    size: medium
+                    charList: ''
+                    autocomplete: ''
+                  - key: RR
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: usuel_test >0
+                    type: textField
+                    label: Max
+                    defaultValue: '0'
+                    size: medium
+                    charList: ''
+                    autocomplete: ''
+                - - null
+                  - null
+              cols: 2
+              rows: 1
+              layout: cc
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - key
+          lhs: usuel
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - visibilityFormula
+          lhs: usuel_test >0
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - type
+          lhs: textArea
+          rhs: table
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - label
+          lhs: Usuel
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - size
+          lhs: full-size
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - style
+          lhs: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+          rhs:
+            - - key: QQ
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textField
+                label: Usage
+                defaultValue: '0'
+                size: medium
+                charList: ''
+                autocomplete: ''
+              - key: RR
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textField
+                label: Max
+                defaultValue: '0'
+                size: medium
+                charList: ''
+                autocomplete: ''
+            - - null
+              - null
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - cols
+          rhs: 2
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - rows
+          rhs: 1
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - layout
+          rhs: cc
+      - - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 0
+            - maxLength
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 0
+          item:
+            kind: D
+            lhs:
+              key: ''
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: table
+              contents:
+                - - key: QQ
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: usuel_test >0
+                    type: textField
+                    label: Usage
+                    defaultValue: '0'
+                    size: medium
+                    charList: ''
+                    autocomplete: ''
+                  - key: RR
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: usuel_test >0
+                    type: textField
+                    label: Max
+                    defaultValue: '0'
+                    size: medium
+                    charList: ''
+                    autocomplete: ''
+                - - null
+                  - null
+              cols: 2
+              rows: 1
+              layout: cc
+      - - kind: A
+          path:
+            - body
+            - contents
+          index: 2
+          item:
+            kind: D
+            lhs:
+              key: description_arme
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: null
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - key
+          lhs: Arme_panel_objet
+          rhs: description_arme
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - role
+          lhs: '1'
+          rhs: '0'
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - type
+          lhs: panel
+          rhs: textArea
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+          lhs:
+            - key: dmg_arme_num_item
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Dégât
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: bonus_num
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: null
+              type: numberField
+              label: Bonus d'attaque
+              defaultValue: '0'
+              size: medium
+              allowDecimal: false
+              minVal: ''
+              maxVal: ''
+              allowRelative: false
+              showControls: false
+              controlsStyle: hover
+              inputStyle: text
+            - key: type_liste
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: Type
+              defaultValue: '3'
+              size: medium
+              selectedOptionType: custom
+              options:
+                - key: '1'
+                  value: Légère
+                - key: '2'
+                  value: Lourde
+                - key: '3'
+                  value: Moyenne
+            - key: JJ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: numberField
+              label: Prix
+              defaultValue: '0'
+              size: medium
+              allowDecimal: false
+              minVal: ''
+              maxVal: ''
+              allowRelative: false
+              showControls: true
+              controlsStyle: hover
+              inputStyle: text
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - flow
+          lhs: grid-3
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - align
+          lhs: center
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - collapsible
+          lhs: false
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - defaultCollapsed
+          lhs: true
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - title
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - titleStyle
+          lhs: default
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - label
+          rhs: Description
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - defaultValue
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - size
+          rhs: full-size
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - style
+          rhs: dialog
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - key
+          lhs: ''
+          rhs: Arme_panel_objet
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - role
+          lhs: '0'
+          rhs: '1'
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - visibilityFormula
+          lhs: usuel_test >0
+          rhs: null
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 3
+          item:
+            kind: 'N'
+            rhs:
+              key: JJ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: numberField
+              label: Prix
+              defaultValue: '0'
+              size: medium
+              allowDecimal: false
+              minVal: ''
+              maxVal: ''
+              allowRelative: false
+              showControls: true
+              controlsStyle: hover
+              inputStyle: text
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 2
+          item:
+            kind: 'N'
+            rhs:
+              key: type_liste
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: Type
+              defaultValue: '3'
+              size: medium
+              selectedOptionType: custom
+              options:
+                - key: '1'
+                  value: Légère
+                - key: '2'
+                  value: Lourde
+                - key: '3'
+                  value: Moyenne
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 1
+          item:
+            kind: 'N'
+            rhs:
+              key: bonus_num
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: null
+              type: numberField
+              label: Bonus d'attaque
+              defaultValue: '0'
+              size: medium
+              allowDecimal: false
+              minVal: ''
+              maxVal: ''
+              allowRelative: false
+              showControls: false
+              controlsStyle: hover
+              inputStyle: text
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 0
+          item:
+            kind: 'N'
+            rhs:
+              key: dmg_arme_num_item
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Dégât
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - flow
+          lhs: vertical
+          rhs: grid-3
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - defaultCollapsed
+          lhs: false
+          rhs: true
+      - - kind: A
+          path:
+            - body
+            - contents
+          index: 1
+          item:
+            kind: D
+            lhs:
+              key: description_arme
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: null
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - maxLength
+      - - kind: A
+          path:
+            - header
+            - contents
+          index: 0
+          item:
+            kind: 'N'
+            rhs:
+              key: ''
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: panel
+              contents:
+                - key: SS
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: checkbox
+                  label: Equipé ?
+                  size: full-size
+                  defaultChecked: false
+                - key: usuel_test
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: checkbox
+                  label: Usuel ?
+                  size: full-size
+                  defaultChecked: false
+              flow: grid-2
+              align: center
+              collapsible: false
+              defaultCollapsed: false
+              title: ''
+              titleStyle: default
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - maxLength
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 1
+            - defaultValue
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+        - kind: A
+          path:
+            - body
+            - contents
+          index: 1
+          item:
+            kind: 'N'
+            rhs:
+              key: Arme_panel_objet
+              cssClass: ''
+              role: '1'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: null
+              type: panel
+              contents:
+                - key: dmg_arme_num_item
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: textField
+                  label: Dégât
+                  defaultValue: '0'
+                  size: medium
+                  charList: ''
+                  autocomplete: ''
+                - key: bonus_num
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: null
+                  type: numberField
+                  label: Bonus d'attaque
+                  defaultValue: '0'
+                  size: medium
+                  allowDecimal: false
+                  minVal: ''
+                  maxVal: ''
+                  allowRelative: false
+                  showControls: false
+                  controlsStyle: hover
+                  inputStyle: text
+                - key: type_liste
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: select
+                  label: Type
+                  defaultValue: '3'
+                  size: medium
+                  selectedOptionType: custom
+                  options:
+                    - key: '1'
+                      value: Légère
+                    - key: '2'
+                      value: Lourde
+                    - key: '3'
+                      value: Moyenne
+                - key: JJ
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: numberField
+                  label: Prix
+                  defaultValue: '0'
+                  size: medium
+                  allowDecimal: false
+                  minVal: ''
+                  maxVal: ''
+                  allowRelative: false
+                  showControls: true
+                  controlsStyle: hover
+                  inputStyle: text
+              flow: grid-3
+              align: center
+              collapsible: false
+              defaultCollapsed: true
+              title: ''
+              titleStyle: default
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - key
+          lhs: Arme_panel_objet
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - role
+          lhs: '1'
+          rhs: '0'
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - visibilityFormula
+          lhs: null
+          rhs: ''
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 3
+          item:
+            kind: D
+            lhs:
+              key: JJ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: numberField
+              label: Prix
+              defaultValue: '0'
+              size: medium
+              allowDecimal: false
+              minVal: ''
+              maxVal: ''
+              allowRelative: false
+              showControls: true
+              controlsStyle: hover
+              inputStyle: text
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 2
+          item:
+            kind: D
+            lhs:
+              key: type_liste
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: Type
+              defaultValue: '3'
+              size: medium
+              selectedOptionType: custom
+              options:
+                - key: '1'
+                  value: Légère
+                - key: '2'
+                  value: Lourde
+                - key: '3'
+                  value: Moyenne
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - key
+          lhs: bonus_num
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - visibilityFormula
+          lhs: null
+          rhs: usuel_test >0
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - type
+          lhs: numberField
+          rhs: table
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - label
+          lhs: Bonus d'attaque
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - defaultValue
+          lhs: '0'
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - size
+          lhs: medium
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - allowDecimal
+          lhs: false
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - minVal
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - maxVal
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - allowRelative
+          lhs: false
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - showControls
+          lhs: false
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - controlsStyle
+          lhs: hover
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - inputStyle
+          lhs: text
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+          rhs:
+            - - key: QQ
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textField
+                label: Usage
+                defaultValue: '0'
+                size: medium
+                charList: ''
+                autocomplete: ''
+              - key: RR
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textField
+                label: Max
+                defaultValue: '0'
+                size: medium
+                charList: ''
+                autocomplete: ''
+            - - null
+              - null
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - cols
+          rhs: 2
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - rows
+          rhs: 1
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - layout
+          rhs: cc
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - key
+          lhs: dmg_arme_num_item
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - type
+          lhs: textField
+          rhs: table
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - label
+          lhs: Dégât
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+          lhs: '0'
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - size
+          lhs: medium
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - charList
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - autocomplete
+          lhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+          rhs:
+            - - key: atour
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: ''
+                type: textArea
+                label: Atour
+                defaultValue: ''
+                size: full-size
+                style: dialog
+              - null
+              - null
+            - - key: usuel
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textArea
+                label: Usuel
+                defaultValue: ''
+                size: full-size
+                style: dialog
+              - null
+              - null
+            - - key: prouesse
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textArea
+                label: Prouesse
+                defaultValue: ''
+                size: full-size
+                style: dialog
+              - null
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - cols
+          rhs: 1
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - rows
+          rhs: 3
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - layout
+          rhs: lc
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - flow
+          lhs: grid-3
+          rhs: vertical
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - defaultCollapsed
+          lhs: true
+          rhs: false
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 1
+            - defaultValue
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+        - kind: E
+          path:
+            - header
+            - contents
+            - 0
+            - flow
+          lhs: grid-2
+          rhs: grid-3
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 0
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 0
+            - maxLength
+      - - kind: A
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+          index: 2
+          item:
+            kind: 'N'
+            rhs:
+              key: SS_copy1
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: Equipé ?
+              size: full-size
+              defaultChecked: false
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 1
+            - defaultValue
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 0
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 0
+            - maxLength
+      - - kind: E
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 2
+            - key
+          lhs: SS_copy1
+          rhs: maitre_test
+        - kind: E
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 2
+            - label
+          lhs: Equipé ?
+          rhs: Maître ?
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 2
+            - defaultValue
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 1
+            - defaultValue
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 0
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 0
+            - maxLength
+    templateHistoryRedo:
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 2
+            - defaultValue
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 1
+            - defaultValue
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 0
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 0
+            - maxLength
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - key
+          lhs: usuel
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - role
+          lhs: '0'
+          rhs: 0
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - permission
+          lhs: '0'
+          rhs: 0
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - visibilityFormula
+          lhs: usuel_test >0
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - type
+          lhs: textArea
+          rhs: panel
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - label
+          lhs: Usuel
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - defaultValue
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - size
+          lhs: full-size
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - style
+          lhs: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - contents
+          rhs:
+            - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: usuel_test >0
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - flow
+          rhs: vertical
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - align
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - collapsible
+          rhs: false
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - defaultCollapsed
+          rhs: true
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - title
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - titleStyle
+          rhs: default
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+          lhs:
+            key: atour
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: textArea
+            label: Atour
+            defaultValue: ''
+            size: full-size
+            style: dialog
+          rhs: null
+img: icons/svg/item-bag.svg
+effects: []
+folder: MKfDTzs1HtvBbbaf
+sort: 1900000
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1732711742411
+  modifiedTime: 1732711742411
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_key: '!items!zwYKvs7oLXGXMFj5'
+

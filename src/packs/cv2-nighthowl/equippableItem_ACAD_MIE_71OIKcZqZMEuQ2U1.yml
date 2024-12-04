@@ -1,0 +1,254 @@
+folder: xhEzpH4vgqRQcyBo
+name: ACADÉMIE
+type: equippableItem
+_id: 71OIKcZqZMEuQ2U1
+img: modules/coeurs-vaillants-2/icone/night-howl/diplome.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: /
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: /
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: >-
+                <p>Recopier l'usuel choisie &agrave; la cr&eacute;ation de
+                l'aventurier.</p>
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: choix01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+          - - key: choix02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+          - - null
+            - null
+          - - null
+        cols: 2
+        rows: 2
+        layout: ''
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: dVv9fdRFsu4UUbJ0
+  props:
+    name: ACADÉMIE
+    choix_01: false
+    choix_02: false
+    atour: >-
+      <p>Ton aventurier est rentr&eacute; dans la police par la grande
+      porte<br>et la formation compl&egrave;te &agrave; l&rsquo;acad&eacute;mie.
+      Il y a appris les lois, les<br>codes, les proc&eacute;dures, les
+      techniques les plus avanc&eacute;es et surtout<br>les traditions de la
+      maison. L&rsquo;acad&eacute;mie est, &agrave; peu pr&egrave;s, la
+      seule<br>mani&egrave;re de pouvoir un jour monter dans les grades les plus
+      &eacute;lev&eacute;s<br>du LAPD et d&rsquo;atteindre un poste
+      d&rsquo;officier sup&eacute;rieur.<br><br></p>
+    choix01: >-
+      <p><strong>H&eacute;ritier. </strong>Ton aventurier a du sang bleu dans
+      les veines et<br>tous ses a&iuml;euls ont &eacute;t&eacute; flics avant
+      lui.<br><br></p>
+    choix02: >-
+      <p><strong>Licorne.</strong> Personne ne sait comment ton aventurier a
+      bien<br>pu d&eacute;crocher son dipl&ocirc;me, mais il l&rsquo;a fait et
+      dans les premiers<br>de sa promotion en plus.<br><br></p>
+    prouesse: >-
+      <p><strong>Esprit de corps (1PA). </strong>Ton aventurier obtient la
+      coop&eacute;ration d&rsquo;un<br>de ses coll&egrave;gues dans un autre
+      service, au bureau ou dans la rue (s&rsquo;il<br>n&rsquo;est pas trop
+      loin). Ce dernier lui fournit une information confidentielle,<br>fait
+      avancer un dossier, l&rsquo;informe d&rsquo;une rumeur, lui
+      pr&eacute;sente l&rsquo;un de ses<br>informateurs, intervient en personne
+      sur une op&eacute;ration et ainsi de suite.</p>
+    QQ: /
+    RR: /
+    usuel: >-
+      <p>Recopier l'usuel choisie &agrave; la cr&eacute;ation de
+      l'aventurier.</p>
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: 71OIKcZqZMEuQ2U1
+  templateSystemUniqueVersion: 153527794
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.1.1
+  createdTime: 1732291056187
+  modifiedTime: 1732291056187
+  lastModifiedBy: z78nMmVCAe8LCaSO
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!71OIKcZqZMEuQ2U1'
+

@@ -1,0 +1,390 @@
+folder: ZSr3aiy87AMObjIf
+name: Atouts
+type: _equippableItemTemplate
+_id: D0o6NGZs8osM8eMt
+img: icons/svg/item-bag.svg
+system:
+  hidden: []
+  header:
+    contents: []
+    key: custom_header
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: descrip_sub
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: desc_text
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+          - - null
+        cols: 1
+        rows: 1
+        layout: cc
+    key: custom_body
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '64'
+    pp_height: '64'
+  uniqueId: D0o6NGZs8osM8eMt
+  templateSystemUniqueVersion: 1520026485
+effects: []
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+flags:
+  custom-system-builder:
+    version: 4.1.1
+    templateHistory:
+      - - kind: 'N'
+          path:
+            - header
+            - cssClass
+          rhs: ''
+        - kind: 'N'
+          path:
+            - header
+            - role
+          rhs: 0
+        - kind: 'N'
+          path:
+            - header
+            - permission
+          rhs: 0
+        - kind: 'N'
+          path:
+            - header
+            - tooltip
+          rhs: ''
+        - kind: 'N'
+          path:
+            - header
+            - visibilityFormula
+          rhs: ''
+        - kind: 'N'
+          path:
+            - header
+            - type
+          rhs: panel
+        - kind: 'N'
+          path:
+            - header
+            - flow
+          rhs: vertical
+        - kind: 'N'
+          path:
+            - header
+            - align
+          rhs: ''
+        - kind: 'N'
+          path:
+            - header
+            - collapsible
+          rhs: false
+        - kind: 'N'
+          path:
+            - header
+            - defaultCollapsed
+          rhs: true
+        - kind: 'N'
+          path:
+            - header
+            - title
+          rhs: ''
+        - kind: 'N'
+          path:
+            - header
+            - titleStyle
+          rhs: default
+        - kind: A
+          path:
+            - body
+            - contents
+          index: 0
+          item:
+            kind: 'N'
+            rhs:
+              key: desc_text
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: 'N'
+          path:
+            - body
+            - cssClass
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - role
+          rhs: 0
+        - kind: 'N'
+          path:
+            - body
+            - permission
+          rhs: 0
+        - kind: 'N'
+          path:
+            - body
+            - tooltip
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - visibilityFormula
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - type
+          rhs: panel
+        - kind: 'N'
+          path:
+            - body
+            - flow
+          rhs: vertical
+        - kind: 'N'
+          path:
+            - body
+            - align
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - collapsible
+          rhs: false
+        - kind: 'N'
+          path:
+            - body
+            - defaultCollapsed
+          rhs: true
+        - kind: 'N'
+          path:
+            - body
+            - title
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - titleStyle
+          rhs: default
+      - - kind: A
+          path:
+            - body
+            - contents
+          index: 1
+          item:
+            kind: 'N'
+            rhs:
+              key: descrip_sub
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: table
+              contents:
+                - - key: desc_text_copy1
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: ''
+                    type: textArea
+                    label: Description
+                    defaultValue: ''
+                    size: full-size
+                    style: dialog
+                  - null
+                - - null
+              cols: 1
+              rows: 1
+              layout: cc
+      - - kind: A
+          path:
+            - body
+            - contents
+          index: 1
+          item:
+            kind: D
+            lhs:
+              key: descrip_sub
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: table
+              contents:
+                - - key: desc_text_copy1
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: ''
+                    type: textArea
+                    label: Description
+                    defaultValue: ''
+                    size: full-size
+                    style: dialog
+                  - null
+                - - null
+              cols: 1
+              rows: 1
+              layout: cc
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - key
+          lhs: desc_text
+          rhs: descrip_sub
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - type
+          lhs: textArea
+          rhs: table
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - label
+          lhs: Description
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - defaultValue
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - size
+          lhs: full-size
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - style
+          lhs: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          rhs:
+            - - key: desc_text_copy1
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: ''
+                type: textArea
+                label: Description
+                defaultValue: ''
+                size: full-size
+                style: dialog
+              - null
+            - - null
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - cols
+          rhs: 1
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - rows
+          rhs: 1
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - layout
+          rhs: cc
+      - - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - key
+          lhs: desc_text_copy1
+          rhs: desc_text
+      - null
+    templateHistoryRedo: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1732711742411
+  modifiedTime: 1732711742411
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_key: '!items!D0o6NGZs8osM8eMt'
+

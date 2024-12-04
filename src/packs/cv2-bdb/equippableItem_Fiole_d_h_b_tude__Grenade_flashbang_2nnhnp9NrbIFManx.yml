@@ -1,0 +1,135 @@
+folder: owTjtEV8Kd7wDbBZ
+name: Fiole d’hébétude/ Grenade flashbang
+type: equippableItem
+img: modules/coeurs-vaillants-2/icone/bdb/consommable.webp
+system:
+  hidden: []
+  header:
+    contents: []
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    visibilityFormula: null
+    flow: vertical
+    align: ''
+    type: panel
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: Conso_panel
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: null
+        type: panel
+        contents:
+          - key: YY
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: numberField
+            label: Prix
+            defaultValue: '0'
+            size: m-small
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: true
+            showControls: true
+            controlsStyle: hover
+            inputStyle: text
+          - key: nombre_item
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: null
+            type: numberField
+            label: Quantité
+            defaultValue: '1'
+            size: medium
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: false
+            showControls: true
+            controlsStyle: hover
+            inputStyle: text
+        flow: grid-2
+        align: center
+        collapsible: false
+        defaultCollapsed: true
+        title: ''
+        titleStyle: default
+      - key: desc_text
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: null
+        type: textArea
+        label: Description
+        defaultValue: ''
+        size: full-size
+        style: dialog
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: null
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: lrX2GC8w9EKrKSGg
+  props:
+    name: Fiole d’hébétude/ Grenade flashbang
+    YY: '2'
+    nombre_item: '1'
+    desc_text: >-
+      <p>En d&eacute;tonnant sur une zone de 3 pas sur 3, produit&nbsp;une
+      intense lumi&egrave;re, un bruit effroyable et oblige&nbsp;les
+      cr&eacute;atures pr&eacute;sentes &agrave; un jet de sauvegarde<br>pour ne
+      pas perdre leur prochaine action.</p>
+  modifiers: []
+  unique: false
+  uniqueId: 2nnhnp9NrbIFManx
+  templateSystemUniqueVersion: 154504401
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.2.0
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_id: 2nnhnp9NrbIFManx
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!2nnhnp9NrbIFManx'
+

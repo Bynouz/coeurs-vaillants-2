@@ -1,0 +1,166 @@
+folder: foSPMSELozWMPCRB
+name: INCARNÉ
+type: equippableItem
+img: modules/coeurs-vaillants-2/icone/bdb/origine.webp
+system:
+  hidden: []
+  header:
+    contents: []
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: choix01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour choix 1
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+            - null
+          - - key: choix02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour choix 2
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        cols: 2
+        rows: 4
+        layout: lc
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: dVv9fdRFsu4UUbJ0
+  props:
+    name: INCARNÉ
+    choix_01: false
+    choix_02: false
+    atour: >-
+      <p>Ton aventurier est un &ecirc;tre artificiel conscient ou une
+      cr&eacute;ature&nbsp;surnaturelle incarn&eacute;e. Il n&rsquo;est pas de
+      ce monde et n&rsquo;en conna&icirc;t&nbsp;pas tous les codes, mais il est
+      observateur et il apprend vite, sans&nbsp;compter ses &eacute;tranges
+      intuitions.</p>
+    choix01: >-
+      <p><strong>Aust&egrave;re. </strong>Ton aventurier a des besoins vitaux
+      tr&egrave;s limit&eacute;s&nbsp;et ais&eacute;s &agrave; ignorer.</p>
+    choix02: >-
+      <p><strong>&Eacute;veill&eacute;.</strong> Ton aventurier sent la
+      pr&eacute;sence du surnaturel et de la magie.</p>
+    prouesse: >-
+      <p><strong>Talisman (1PA).</strong> Ton aventurier porte chance &agrave;
+      ses amis. Il ajoute&nbsp;1d8 au r&eacute;sultat d&rsquo;un jet de
+      r&eacute;solution effectu&eacute; par l&rsquo;un d&rsquo;entre eux,
+      juste&nbsp;pour voir si &ccedil;a passe quand m&ecirc;me.</p>
+  modifiers: []
+  unique: true
+  uniqueId: J54AeTWMGvEWxTkf
+  templateSystemUniqueVersion: 4051763885
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_id: J54AeTWMGvEWxTkf
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!J54AeTWMGvEWxTkf'
+

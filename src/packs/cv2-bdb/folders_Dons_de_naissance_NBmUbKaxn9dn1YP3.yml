@@ -1,0 +1,20 @@
+name: Dons de naissance
+sorting: a
+folder: dA8fFsZyV2h89NZw
+type: Item
+_id: NBmUbKaxn9dn1YP3
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+_key: '!folders!NBmUbKaxn9dn1YP3'
+

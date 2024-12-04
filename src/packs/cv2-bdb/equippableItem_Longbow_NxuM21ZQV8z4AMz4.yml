@@ -1,0 +1,302 @@
+name: Longbow
+type: equippableItem
+img: icons/weapons/bows/longbow-recurve-leather-brown.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: panel
+        contents:
+          - key: SS
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: Equipé ?
+            size: full-size
+            defaultChecked: false
+          - key: usuel_test
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: Usuel ?
+            size: full-size
+            defaultChecked: false
+          - key: maitre_test
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: Maître ?
+            size: full-size
+            defaultChecked: false
+        flow: grid-3
+        align: center
+        collapsible: false
+        defaultCollapsed: false
+        title: ''
+        titleStyle: default
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    visibilityFormula: null
+    flow: vertical
+    align: ''
+    type: panel
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: panel
+        contents:
+          - key: ''
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: table
+            contents:
+              - - key: atour
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: textArea
+                  label: Atour
+                  defaultValue: ''
+                  size: full-size
+                  style: dialog
+                - null
+                - null
+              - - key: usuel
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textArea
+                  label: Usuel
+                  defaultValue: ''
+                  size: full-size
+                  style: dialog
+                - null
+                - null
+              - - key: prouesse
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textArea
+                  label: Prouesse
+                  defaultValue: ''
+                  size: full-size
+                  style: dialog
+                - null
+            cols: 1
+            rows: 3
+            layout: lc
+          - key: ''
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: usuel_test >0
+            type: table
+            contents:
+              - - key: QQ
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textField
+                  label: Usage
+                  defaultValue: '0'
+                  size: medium
+                  charList: ''
+                  autocomplete: ''
+                - key: RR
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textField
+                  label: Max
+                  defaultValue: '0'
+                  size: medium
+                  charList: ''
+                  autocomplete: ''
+              - - null
+                - null
+            cols: 2
+            rows: 1
+            layout: cc
+        flow: vertical
+        align: center
+        collapsible: false
+        defaultCollapsed: false
+        title: ''
+        titleStyle: default
+      - key: Arme_panel_objet
+        cssClass: ''
+        role: '1'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: null
+        type: panel
+        contents:
+          - key: dmg_arme_num_item
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: textField
+            label: Dégât
+            defaultValue: '0'
+            size: medium
+            charList: ''
+            autocomplete: ''
+          - key: bonus_num
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: null
+            type: numberField
+            label: Bonus d'attaque
+            defaultValue: '0'
+            size: medium
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: false
+            showControls: false
+            controlsStyle: hover
+            inputStyle: text
+          - key: type_liste
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: select
+            label: Type
+            defaultValue: '3'
+            size: medium
+            selectedOptionType: custom
+            options:
+              - key: '1'
+                value: Légère
+              - key: '2'
+                value: Lourde
+              - key: '3'
+                value: Moyenne
+          - key: JJ
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: numberField
+            label: Prix
+            defaultValue: '0'
+            size: medium
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: false
+            showControls: true
+            controlsStyle: hover
+            inputStyle: text
+        flow: grid-3
+        align: center
+        collapsible: false
+        defaultCollapsed: true
+        title: ''
+        titleStyle: default
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: null
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: zwYKvs7oLXGXMFj5
+  props:
+    dmg_arme_num_item: 2d8
+    type_liste: '2'
+    bonus_num: '0'
+    name: Longbow
+    JJ: '0'
+    SS: false
+    usuel_test: false
+    QQ: '0'
+    RR: '0'
+  modifiers: []
+  unique: false
+  uniqueId: NxuM21ZQV8z4AMz4
+  templateSystemUniqueVersion: 665871858
+effects: []
+flags:
+  custom-system-builder:
+    version: 3.2.4
+  scene-packer:
+    sourceId: Item.nOJAnYZzbnVVSMau
+    hash: ff39c3336356a1b17337d5da3a55e5210de74d2d
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+folder: 9x6nISPr5u9iT4rr
+_id: NxuM21ZQV8z4AMz4
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!NxuM21ZQV8z4AMz4'
+

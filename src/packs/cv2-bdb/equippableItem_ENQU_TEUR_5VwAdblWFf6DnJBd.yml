@@ -1,0 +1,190 @@
+folder: lw0jBlKlDNUUOF8h
+name: ENQUÊTEUR
+type: equippableItem
+img: modules/coeurs-vaillants-2/icone/bdb/metier.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: Ki1bSmsjyNY1FqQ4
+  props:
+    name: ENQUÊTEUR
+    QQ: '1'
+    atour: >-
+      <p><strong>Investigation.</strong> Ton aventurier sait qu&rsquo;une
+      enqu&ecirc;te s&eacute;rieuse se&nbsp;perd souvent dans un d&eacute;dale
+      de faits, de suppositions, d&rsquo;atermoiements dont seule une rigoureuse
+      prise de notes permet de&nbsp;sortir. Fouiller les fichiers, les archives,
+      les papiers compte tout&nbsp;autant que de relever des indices ou
+      d&rsquo;interroger les protagonistes. L&rsquo;important, au bout du
+      compte, n&rsquo;est pas tant de savoir&nbsp;la v&eacute;rit&eacute; que de
+      pouvoir la d&eacute;montrer et la prouver.</p>
+    usuel: >-
+      <p><strong>Interrogation (1 +demi-niveau).</strong> Ton aventurier soutire
+      une&nbsp;information &agrave; un figurant en employant la tromperie, la
+      logique&nbsp;ou l&rsquo;intimidation. Il sait instinctivement la
+      qualit&eacute; et la validit&eacute;&nbsp;de cette information, que la
+      cible mente ou non.Un figurant plus&nbsp;puissant peut effectuer un jet de
+      sauvegarde pour ne rien r&eacute;v&eacute;ler.</p>
+    prouesse: >-
+      <p><strong>Lecture de personnalit&eacute; (1PA).</strong> Ton aventurier
+      d&eacute;termine l&rsquo;&eacute;tat&nbsp;d&rsquo;esprit et les
+      motivations imm&eacute;diates r&eacute;elles d&rsquo;un interlocuteur,
+      ainsi&nbsp;que, sans doute, les motivations sous-jacentes qui guident ses
+      positions&nbsp;de n&eacute;gociation. Il peut aussi &eacute;valuer et
+      analyser les dynamiques sociales d&rsquo;un petit groupe de personnes qui
+      lui font face.</p>
+    RR: '1'
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: 5VwAdblWFf6DnJBd
+  templateSystemUniqueVersion: 3029886476
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_id: 5VwAdblWFf6DnJBd
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!5VwAdblWFf6DnJBd'
+

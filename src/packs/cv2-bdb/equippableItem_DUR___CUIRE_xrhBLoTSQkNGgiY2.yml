@@ -1,0 +1,181 @@
+folder: lw0jBlKlDNUUOF8h
+name: DUR À CUIRE
+type: equippableItem
+img: modules/coeurs-vaillants-2/icone/bdb/metier.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: Ki1bSmsjyNY1FqQ4
+  props:
+    name: DUR À CUIRE
+    QQ: '1'
+    atour: >-
+      <p><strong>Exercices.</strong> Ton aventurier a subi un entra&icirc;nement
+      long et&nbsp;exigeant, dans des conditions particuli&egrave;rement
+      difficiles, dans le&nbsp;froid et sous la canicule, sans protections ni
+      v&ecirc;tements, jusqu&rsquo;&agrave;&nbsp;aguerrir son corps aux pires
+      tourments. Il n&rsquo;y a pas grand-chose&nbsp;qui lui cr&eacute;e de
+      l&rsquo;inconfort ou de la g&ecirc;ne.</p>
+    usuel: >-
+      <p><strong>Rien senti (2 +niveau).</strong> Ton aventurier r&eacute;duit
+      de moiti&eacute; les&nbsp;d&eacute;g&acirc;ts d&rsquo;une attaque physique
+      ou magique.</p>
+    prouesse: >-
+      <p><strong>Dur au mal (1PA).</strong> Jusqu&rsquo;au prochain
+      r&eacute;pit, ton aventurier ignore tous les d&eacute;g&acirc;ts
+      caus&eacute;s par les contusions.</p>
+    RR: '1'
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: xrhBLoTSQkNGgiY2
+  templateSystemUniqueVersion: 3029886476
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_id: xrhBLoTSQkNGgiY2
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!xrhBLoTSQkNGgiY2'
+

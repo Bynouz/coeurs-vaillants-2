@@ -1,0 +1,252 @@
+folder: xhEzpH4vgqRQcyBo
+name: PROGRAMME DE RÉHABILITATION
+type: equippableItem
+_id: d6eI6L2Ny0ZqaOCS
+img: modules/coeurs-vaillants-2/icone/night-howl/diplome.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: /
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: /
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: >-
+                <p>Recopier l'usuel choisie &agrave; la cr&eacute;ation de
+                l'aventurier.</p>
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: choix01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+          - - key: choix02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+          - - null
+            - null
+          - - null
+        cols: 2
+        rows: 2
+        layout: ''
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: dVv9fdRFsu4UUbJ0
+  props:
+    name: PROGRAMME DE RÉHABILITATION
+    choix_01: false
+    choix_02: false
+    atour: >-
+      <p>Ton aventurier appartenait au monde interlope et criminel<br>de Los
+      Angeles et a longtemps &eacute;t&eacute; informateur pour le LAPD<br>avant
+      de rentrer dans ses rangs gr&acirc;ce aux programmes de validation<br>de
+      l&rsquo;exp&eacute;rience &ndash; une mani&egrave;re d&rsquo;autoriser des
+      individus<br>d&eacute;j&agrave; exp&eacute;riment&eacute;s &agrave;
+      postuler sans devoir passer par l&rsquo;acad&eacute;mie<br>o&ugrave; ils
+      auraient toutes les chances d&rsquo;&eacute;chouer face aux
+      contraintes<br>d&rsquo;ordre et de discipline.<br><br></p>
+    choix01: >-
+      <p><strong>Clandestin. </strong>Personne dans son ancien milieu ne sait
+      que<br>ton aventurier est maintenant un flic.<br></p>
+    choix02: >-
+      <p><strong>Faveurs.</strong> Un certain nombre de criminels ont une
+      bonne<br>raison d&rsquo;appr&eacute;cier encore ton aventurier.<br></p>
+    prouesse: >-
+      <p><strong>OEil exerc&eacute; (1PA). </strong>Ton aventurier remarque un
+      d&eacute;tail dans<br>la rue qui pourrait &eacute;chapper aux flics les
+      plus chevronn&eacute;s. Pose une<br>question &agrave; la ma&icirc;tresse
+      de jeu sur ce que dissimulent les dynamiques &agrave;<br>l&rsquo;oeuvre,
+      l&rsquo;environnement imm&eacute;diat les pi&egrave;ges cach&eacute;s
+      d&rsquo;une op&eacute;ration ;<br>ou souffle-lui une id&eacute;e de ce que
+      voit ton aventurier qui pourrait le<br>favoriser.</p>
+    QQ: /
+    RR: /
+    usuel: >-
+      <p>Recopier l'usuel choisie &agrave; la cr&eacute;ation de
+      l'aventurier.</p>
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: d6eI6L2Ny0ZqaOCS
+  templateSystemUniqueVersion: 153527794
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.1.1
+  createdTime: 1732291056187
+  modifiedTime: 1732291056187
+  lastModifiedBy: z78nMmVCAe8LCaSO
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!d6eI6L2Ny0ZqaOCS'
+

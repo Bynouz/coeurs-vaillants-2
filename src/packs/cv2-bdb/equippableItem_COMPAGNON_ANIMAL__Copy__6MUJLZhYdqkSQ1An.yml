@@ -1,0 +1,173 @@
+folder: HlZz8GKTfE4GmSto
+name: COMPAGNON ANIMAL (Copy)
+type: equippableItem
+img: modules/coeurs-vaillants-2/icone/bdb/suivant.webp
+system:
+  hidden: []
+  header:
+    contents: []
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: choix01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour choix 1
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+            - null
+          - - key: choix02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour choix 2
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        cols: 2
+        rows: 4
+        layout: lc
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: RMM8WyAbkLouYBP9
+  props:
+    name: Chien
+    choix_01: false
+    choix_02: false
+    atour: >-
+      <p>Le compagnon est un animal normal, de petite &agrave;
+      moyenne&nbsp;taille (pas plus gros qu&rsquo;une panth&egrave;re ou un
+      loup), attach&eacute; et&nbsp;fid&egrave;le, poss&eacute;dant une
+      intelligence sup&eacute;rieure &agrave; celle d&rsquo;autres
+      repr&eacute;sentants&nbsp;de son esp&egrave;ce. L&rsquo;animal est capable
+      d&rsquo;accomplir des&nbsp;tours simples : d&eacute;tourner
+      l&rsquo;attention, garder un lieu ou un objet,&nbsp;transporter un
+      message, aller chercher de l&rsquo;aide, suivre une piste,&nbsp;menacer
+      une personne et ainsi de suite.</p>
+    choix01: >-
+      <p>Une grosse qualit&eacute;. Courageux, Doux,
+      Impressionnant,&nbsp;Joyeux, Mignon<br><br></p>
+    choix02: >-
+      <p>Un petit d&eacute;faut. Brusque, Farouche, Fureteur,
+      Ind&eacute;pendant,&nbsp;T&ecirc;te en l&rsquo;air</p>
+    prouesse: >-
+      <p><strong>Curieux (1PA). </strong>Gr&acirc;ce &agrave; son flair et,
+      ind&eacute;niablement, &agrave; sa curiosit&eacute;,&nbsp;le compagnon
+      animal d&eacute;niche un indice ou une information utile &agrave;&nbsp;ton
+      aventurier, met en &eacute;vidence un danger ou r&eacute;v&egrave;le une
+      activit&eacute; clandestine.&nbsp;Demande &agrave; la ma&icirc;tresse de
+      jeu des informations pertinentes&nbsp;que ton aventurier n&rsquo;aurait
+      aucune raison de trouver ou m&ecirc;me de&nbsp;soup&ccedil;onner.</p>
+  modifiers: []
+  unique: false
+  uniqueId: 6MUJLZhYdqkSQ1An
+  templateSystemUniqueVersion: 1110041474
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_id: 6MUJLZhYdqkSQ1An
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!6MUJLZhYdqkSQ1An'
+

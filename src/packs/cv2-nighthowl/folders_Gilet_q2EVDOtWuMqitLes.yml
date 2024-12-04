@@ -1,0 +1,20 @@
+name: Gilet
+sorting: a
+folder: null
+type: Item
+_id: q2EVDOtWuMqitLes
+description: ''
+sort: 0
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.1.1
+  createdTime: 1732291056161
+  modifiedTime: 1732291056161
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_key: '!folders!q2EVDOtWuMqitLes'
+

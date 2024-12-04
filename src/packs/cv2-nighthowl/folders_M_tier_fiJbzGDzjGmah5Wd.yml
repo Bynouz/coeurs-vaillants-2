@@ -1,0 +1,20 @@
+name: Métier
+sorting: a
+folder: null
+type: Item
+_id: fiJbzGDzjGmah5Wd
+description: ''
+sort: -50000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.1.1
+  createdTime: 1732291056161
+  modifiedTime: 1732291056161
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_key: '!folders!fiJbzGDzjGmah5Wd'
+

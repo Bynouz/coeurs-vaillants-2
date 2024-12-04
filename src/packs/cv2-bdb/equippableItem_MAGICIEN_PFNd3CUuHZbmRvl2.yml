@@ -1,0 +1,188 @@
+folder: lw0jBlKlDNUUOF8h
+name: MAGICIEN
+type: equippableItem
+img: modules/coeurs-vaillants-2/icone/bdb/metier.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: Ki1bSmsjyNY1FqQ4
+  props:
+    name: MAGICIEN
+    QQ: '1'
+    atour: >-
+      <p><strong>Docte.</strong> Ton aventurier poss&egrave;de toutes sortes de
+      savoirs th&eacute;oriques concernant la magie et ses effets les plus
+      divers. Il peut tenter d&rsquo;en analyser et d&rsquo;en comprendre les
+      manifestations, en s&rsquo;appuyant sur de solides connaissances
+      livresques.</p>
+    usuel: >-
+      <p><strong>Grimoire (2 +niveau).</strong> Ton aventurier d&eacute;pense
+      une Matrice de sort et incante un sortil&egrave;ge contenu dans son
+      grimoire. Lancer un sort co&ucirc;te une action, mais les effets sont
+      instantan&eacute;s et durent le&nbsp;temps indiqu&eacute; dans sa
+      description. Ton aventurier peut d&eacute;penser&nbsp;un point
+      d&rsquo;aventure pour activer la prouesse du sort.<br></p>
+    prouesse: >-
+      <p><strong>R&eacute;sistance magique (1PA).</strong> Ton aventurier
+      b&eacute;n&eacute;ficie, jusqu&rsquo;au prochain repos, d&rsquo;une
+      r&eacute;sistance magique dont le seuil est &eacute;gal &agrave; 15. Quand
+      il est pris pour cible par n&rsquo;importe quel effet magique
+      ind&eacute;sirable, qu&rsquo;il puisse ou non b&eacute;n&eacute;ficier
+      d&rsquo;un jet de sauvegarde, lance 1d20 +niveau. Si le r&eacute;sultat
+      est &eacute;gal ou sup&eacute;rieur au seuil de la r&eacute;sistance
+      magique, l&rsquo;effet magique est simplement annul&eacute;.</p>
+    RR: '1'
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: PFNd3CUuHZbmRvl2
+  templateSystemUniqueVersion: 3029886476
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_id: PFNd3CUuHZbmRvl2
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!PFNd3CUuHZbmRvl2'
+

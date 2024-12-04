@@ -1,0 +1,253 @@
+folder: xhEzpH4vgqRQcyBo
+name: CORRESPONDANT INTERNATIONAL
+type: equippableItem
+_id: ulHqCfK37wXoLu9A
+img: modules/coeurs-vaillants-2/icone/night-howl/diplome.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: /
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: /
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: >-
+                <p>Recopier l'usuel choisie &agrave; la cr&eacute;ation de
+                l'aventurier.</p>
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: choix01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+          - - key: choix02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+          - - null
+            - null
+          - - null
+        cols: 2
+        rows: 2
+        layout: ''
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: dVv9fdRFsu4UUbJ0
+  props:
+    name: CORRESPONDANT INTERNATIONAL
+    atour: >-
+      <p>Ton aventurier est un flic de plein droit, mais il n&rsquo;est
+      pas<br>am&eacute;ricain. Il participe &agrave; un programme
+      d&rsquo;&eacute;change avec sa nation<br>d&rsquo;origine, qu&rsquo;il
+      s&rsquo;agisse d&rsquo;approfondir techniques et
+      m&eacute;thodes,<br>d&rsquo;enqu&ecirc;tes jointes sur des criminels
+      internationaux ou d&rsquo;agir<br>comme liaison avec des
+      communaut&eacute;s locales venues de son<br>pays. Heureusement, il peut
+      travailler comme tous les autres flics<br>et il est
+      arm&eacute;.<br><br></p>
+    choix_01: false
+    choix_02: false
+    choix01: >-
+      <p><strong>Gourmet. </strong>Ton aventurier conna&icirc;t les meilleurs
+      restaurants<br>de la ville et pas uniquement ceux de sa culture
+      d&rsquo;origine.<br></p>
+    choix02: >-
+      <p><strong>Polyglotte.</strong> Ton aventurier a &eacute;t&eacute; choisi
+      pour cet &eacute;change<br>&agrave; cause de son talent pour les langues
+      &eacute;trang&egrave;res qu&rsquo;il baragouine<br>en grand
+      nombre.<br></p>
+    prouesse: >-
+      <p><strong>Techniques exotiques (1PA).</strong> Ton aventurier, toujours
+      de bon<br>conseil, ajoute 1d8 au r&eacute;sultat d&rsquo;un jet
+      effectu&eacute; par un camarade, juste<br>pour voir si &ccedil;a passe
+      quand m&ecirc;me.</p>
+    QQ: /
+    RR: /
+    usuel: >-
+      <p>Recopier l'usuel choisie &agrave; la cr&eacute;ation de
+      l'aventurier.</p>
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: ulHqCfK37wXoLu9A
+  templateSystemUniqueVersion: 153527794
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.1.1
+  createdTime: 1732291056187
+  modifiedTime: 1732291056187
+  lastModifiedBy: z78nMmVCAe8LCaSO
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!ulHqCfK37wXoLu9A'
+

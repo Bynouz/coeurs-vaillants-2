@@ -1,0 +1,216 @@
+name: ANIMALITÉ
+type: equippableItem
+img: modules/coeurs-vaillants-2/icone/bdb/magie.webp
+system:
+  hidden: []
+  header:
+    contents: []
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    visibilityFormula: null
+    flow: vertical
+    align: ''
+    type: panel
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: dist_magie
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Personnel
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Personnel
+                  value: Personnel
+                - key: Toucher
+                  value: Toucher
+                - key: 10 Pas
+                  value: 10 Pas
+                - key: 12 Pas
+                  value: 12 Pas
+                - key: 18 Pas
+                  value: 18 Pas
+                - key: 36 Pas
+                  value: 36 Pas
+            - key: temps_magie
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Répit
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Instantané
+                  value: Instantané
+                - key: Répit
+                  value: Répit
+                - key: Repos
+                  value: Repos
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: dist_magie_p
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Personnel
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Personnel
+                  value: Personnel
+                - key: Toucher
+                  value: Toucher
+                - key: 10 Pas
+                  value: 10 Pas
+                - key: 12 Pas
+                  value: 12 Pas
+                - key: 18 Pas
+                  value: 18 Pas
+                - key: 36 Pas
+                  value: 36 Pas
+            - key: temps_magie_p
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Répit
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Instantané
+                  value: Instantané
+                - key: Répit
+                  value: Répit
+                - key: Repos
+                  value: Repos
+        cols: 3
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: null
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: U4zcvy0kqpagNSzf
+  props:
+    name: ANIMALITÉ
+    dist_magie: Toucher
+    atour: <p>Un sort pour les amis des b&ecirc;tes.</p>
+    usuel: >-
+      <p><strong>Zoomorphose.</strong> La cible du sort prend l&rsquo;apparence
+      d&rsquo;un animal normal, local, avec toutes ses capacit&eacute;s. Elle
+      conserve son propre niveau, mais tout son &eacute;quipement
+      semble&nbsp;dispara&icirc;tre en elle et n&rsquo;est plus accessible.</p>
+    prouesse: >-
+      <p><strong>Parler avec les anmaux (1PA).</strong> Ton aventurier
+      communique de mani&egrave;re intelligible avec les animaux, dans les
+      limites des capacit&eacute;s d&rsquo;abstraction respectives.</p>
+    temps_magie: Repos
+    dist_magie_p: Personnel
+    temps_magie_p: Répit
+  modifiers: []
+  unique: false
+  uniqueId: 47jcCsCjTEEs68s4
+  templateSystemUniqueVersion: 4286810332
+effects: []
+flags:
+  custom-system-builder:
+    version: 3.2.4
+  scene-packer:
+    sourceId: Item.XOALiTOBfqH8FVhL
+    hash: 4f1218c974dd5e7862250f41a6d151a61e9e3c24
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+folder: bDAjOqKjWVnIAC0L
+_id: 47jcCsCjTEEs68s4
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!47jcCsCjTEEs68s4'
+

@@ -1,0 +1,188 @@
+folder: lw0jBlKlDNUUOF8h
+name: DIPLOMATE
+type: equippableItem
+img: modules/coeurs-vaillants-2/icone/bdb/metier.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: Ki1bSmsjyNY1FqQ4
+  props:
+    name: DIPLOMATE
+    QQ: '1'
+    atour: >-
+      <p><strong>Sympathie.</strong> Ton aventurier est amical et inspire
+      confiance. Les&nbsp;gens lui confient volontiers leurs
+      pr&eacute;occupations, lui glissent&nbsp;des confidences, des
+      informations, des avis personnels, sans&nbsp;vraiment
+      s&rsquo;&eacute;tonner de sa sollicitude et de son int&eacute;r&ecirc;t.
+      Il lui suffit&nbsp;seulement d&rsquo;&ecirc;tre &agrave;
+      l&rsquo;&eacute;coute, patient et engageant.</p>
+    usuel: >-
+      <p><strong>Sages conseils (1 +demi-niveau).</strong> Ton aventurier
+      obtient&nbsp;d&rsquo;un interlocuteur qu&rsquo;il accepte ses avis et
+      conseils et prenne une&nbsp;d&eacute;cision ou agisse selon ses
+      propositions. C&rsquo;est ensuite de sa&nbsp;responsabilit&eacute; que ces
+      suggestions soient effectivement les plus&nbsp;avis&eacute;es. Attention,
+      c&rsquo;est bien un conseil et pas une injonction...</p>
+    prouesse: >-
+      <p><strong>Pourparlers (1PA).</strong> Ton aventurier d&eacute;clare un
+      &laquo; Pourparlers &raquo;,&nbsp;interrompant un combat imminent ou en
+      cours, le temps de discuter et,&nbsp;&eacute;ventuellement, de
+      d&eacute;cider de poursuivre le conflit ou de le r&eacute;gler
+      plus&nbsp;pacifiquement. Cette capacit&eacute; ne fonctionne pas avec les
+      cr&eacute;atures qui&nbsp;ne communiquent pas intelligemment.</p>
+    RR: '1'
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: 8NFuNcqBIkQuca3N
+  templateSystemUniqueVersion: 3029886476
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_id: 8NFuNcqBIkQuca3N
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!8NFuNcqBIkQuca3N'
+

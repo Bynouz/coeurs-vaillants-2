@@ -1,0 +1,134 @@
+folder: owTjtEV8Kd7wDbBZ
+name: Huile de feu grégeois/ Cocktail molotov
+type: equippableItem
+img: modules/coeurs-vaillants-2/icone/bdb/consommable.webp
+system:
+  hidden: []
+  header:
+    contents: []
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    visibilityFormula: null
+    flow: vertical
+    align: ''
+    type: panel
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: Conso_panel
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: null
+        type: panel
+        contents:
+          - key: YY
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: numberField
+            label: Prix
+            defaultValue: '0'
+            size: m-small
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: true
+            showControls: true
+            controlsStyle: hover
+            inputStyle: text
+          - key: nombre_item
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: null
+            type: numberField
+            label: Quantité
+            defaultValue: '1'
+            size: medium
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: false
+            showControls: true
+            controlsStyle: hover
+            inputStyle: text
+        flow: grid-2
+        align: center
+        collapsible: false
+        defaultCollapsed: true
+        title: ''
+        titleStyle: default
+      - key: desc_text
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: null
+        type: textArea
+        label: Description
+        defaultValue: ''
+        size: full-size
+        style: dialog
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: null
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: lrX2GC8w9EKrKSGg
+  props:
+    name: Huile de feu grégeois/ Cocktail molotov
+    YY: '1'
+    nombre_item: '1'
+    desc_text: >-
+      <p>Inflige 1d4 +niveau d&eacute;g&acirc;ts de feu &agrave; chaque
+      cr&eacute;ature&nbsp;pr&eacute;sente dans une zone de 2 pas de
+      c&ocirc;t&eacute;.</p>
+  modifiers: []
+  unique: false
+  uniqueId: ppUWajeKyTJzFvJ0
+  templateSystemUniqueVersion: 154504401
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.2.0
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_id: ppUWajeKyTJzFvJ0
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!ppUWajeKyTJzFvJ0'
+

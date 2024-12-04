@@ -1,0 +1,973 @@
+_id: ttlaBNkYyuw0TXEY
+name: Divers
+type: _equippableItemTemplate
+system:
+  hidden: []
+  header:
+    contents: []
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    visibilityFormula: null
+    flow: vertical
+    align: ''
+    type: panel
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: divert_panel
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: null
+        type: panel
+        contents:
+          - key: XX
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: numberField
+            label: Quantité
+            defaultValue: ''
+            size: medium
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: false
+            showControls: true
+            controlsStyle: hover
+            inputStyle: text
+          - key: JJ
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: numberField
+            label: Prix
+            defaultValue: '0'
+            size: medium
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: false
+            showControls: false
+            controlsStyle: hover
+            inputStyle: text
+        flow: grid-2
+        align: center
+        collapsible: false
+        defaultCollapsed: true
+        title: ''
+        titleStyle: default
+      - key: desc_text
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: null
+        type: textArea
+        label: Description
+        defaultValue: ''
+        size: full-size
+        style: dialog
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: null
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  templateSystemUniqueVersion: 2010064167
+  uniqueId: ttlaBNkYyuw0TXEY
+flags:
+  custom-system-builder:
+    version: 3.2.4
+    templateHistory:
+      - - kind: E
+          path:
+            - header
+            - flow
+          lhs: null
+          rhs: vertical
+        - kind: E
+          path:
+            - header
+            - align
+          lhs: null
+          rhs: ''
+        - kind: 'N'
+          path:
+            - header
+            - collapsible
+          rhs: false
+        - kind: 'N'
+          path:
+            - header
+            - defaultCollapsed
+          rhs: true
+        - kind: 'N'
+          path:
+            - header
+            - title
+          rhs: ''
+        - kind: 'N'
+          path:
+            - header
+            - titleStyle
+          rhs: default
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - key
+          lhs: desc_text
+          rhs: JJ
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - visibilityFormula
+          lhs: null
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - label
+          lhs: Description
+          rhs: Prix
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - defaultValue
+          lhs: ''
+          rhs: '0'
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - size
+          lhs: null
+          rhs: medium
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - style
+          lhs: dialog
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - type
+          lhs: textArea
+          rhs: numberField
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - allowDecimal
+          rhs: false
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - minVal
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - maxVal
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - allowRelative
+          rhs: false
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - showControls
+          rhs: true
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - controlsStyle
+          rhs: hover
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - inputStyle
+          rhs: text
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - key
+          lhs: XX
+          rhs: desc_text
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - label
+          lhs: Quantité
+          rhs: Description
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - size
+          lhs: medium
+          rhs: full-size
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - allowDecimal
+          lhs: false
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - minVal
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - maxVal
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - allowRelative
+          lhs: false
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - showControls
+          lhs: false
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - type
+          lhs: numberField
+          rhs: textArea
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - style
+          rhs: dialog
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - key
+          lhs: JJ
+          rhs: XX
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - visibilityFormula
+          lhs: ''
+          rhs: null
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - label
+          lhs: Prix
+          rhs: Quantité
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+          lhs: '0'
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - showControls
+          lhs: true
+          rhs: false
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - controlsStyle
+          rhs: hover
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - inputStyle
+          rhs: text
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - collapsible
+          rhs: false
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - defaultCollapsed
+          rhs: true
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - title
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - titleStyle
+          rhs: default
+        - kind: E
+          path:
+            - body
+            - flow
+          lhs: null
+          rhs: vertical
+        - kind: E
+          path:
+            - body
+            - align
+          lhs: null
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - collapsible
+          rhs: false
+        - kind: 'N'
+          path:
+            - body
+            - defaultCollapsed
+          rhs: true
+        - kind: 'N'
+          path:
+            - body
+            - title
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - titleStyle
+          rhs: default
+      - - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - key
+          lhs: desc_text
+          rhs: XX
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - type
+          lhs: textArea
+          rhs: numberField
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - label
+          lhs: Description
+          rhs: Quantité
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - size
+          lhs: full-size
+          rhs: medium
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - style
+          lhs: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - allowDecimal
+          rhs: false
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - minVal
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - maxVal
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - allowRelative
+          rhs: false
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - showControls
+          rhs: false
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - controlsStyle
+          rhs: hover
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - inputStyle
+          rhs: text
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - key
+          lhs: XX
+          rhs: desc_text
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - type
+          lhs: numberField
+          rhs: textArea
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - label
+          lhs: Quantité
+          rhs: Description
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - size
+          lhs: medium
+          rhs: full-size
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - allowDecimal
+          lhs: false
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - minVal
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - maxVal
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - allowRelative
+          lhs: false
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - showControls
+          lhs: false
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - controlsStyle
+          lhs: hover
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - inputStyle
+          lhs: text
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - style
+          rhs: dialog
+      - - kind: A
+          path:
+            - body
+            - contents
+          index: 1
+          item:
+            kind: 'N'
+            rhs:
+              key: desc_text
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: null
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 2
+          item:
+            kind: D
+            lhs:
+              key: JJ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: numberField
+              label: Prix
+              defaultValue: '0'
+              size: medium
+              allowDecimal: false
+              minVal: ''
+              maxVal: ''
+              allowRelative: false
+              showControls: true
+              controlsStyle: hover
+              inputStyle: text
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - key
+          lhs: XX
+          rhs: JJ
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - visibilityFormula
+          lhs: null
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - label
+          lhs: Quantité
+          rhs: Prix
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - defaultValue
+          lhs: ''
+          rhs: '0'
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - showControls
+          lhs: false
+          rhs: true
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - key
+          lhs: desc_text
+          rhs: XX
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - type
+          lhs: textArea
+          rhs: numberField
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - label
+          lhs: Description
+          rhs: Quantité
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - size
+          lhs: full-size
+          rhs: medium
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - style
+          lhs: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - allowDecimal
+          rhs: false
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - minVal
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - maxVal
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - allowRelative
+          rhs: false
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - showControls
+          rhs: false
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - controlsStyle
+          rhs: hover
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - inputStyle
+          rhs: text
+      - - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - visibilityFormula
+          lhs: null
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - showControls
+          lhs: false
+          rhs: true
+      - - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - showControls
+          lhs: true
+          rhs: false
+    templateHistoryRedo: []
+img: icons/svg/item-bag.svg
+effects: []
+folder: MKfDTzs1HtvBbbaf
+sort: 400000
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1732711742411
+  modifiedTime: 1732711742411
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_key: '!items!ttlaBNkYyuw0TXEY'
+

@@ -1,0 +1,184 @@
+folder: lw0jBlKlDNUUOF8h
+name: GUÉRISSEUR
+type: equippableItem
+img: modules/coeurs-vaillants-2/icone/bdb/metier.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: Ki1bSmsjyNY1FqQ4
+  props:
+    name: GUÉRISSEUR
+    QQ: '1'
+    atour: >-
+      <p><strong>BobologIe.</strong> Ton aventurier connait toutes sortes de
+      moyens, naturels et pharmaceutiques, pour soulager et traiter la plupart
+      des petites douleurs, des maladies courantes et des blessures vives. Il
+      est le bienvenue partout o&ugrave; ses services sont requis.</p>
+    usuel: >-
+      <p><strong>Premiers secours (2 +niveau).</strong> Au prix d&rsquo;une
+      action libre et&nbsp;au toucher, ton aventurier rend 1d8 +niveau points de
+      vie &agrave; une&nbsp;cr&eacute;ature vivante. Il ajoute aussi son niveau
+      &agrave; toute r&eacute;cup&eacute;ration&nbsp;de points de vie durant un
+      r&eacute;pit, pour tous ses compagnons.</p>
+    prouesse: >-
+      <p><strong>Soins urgents (1PA).</strong> Au prix d&rsquo;une action et au
+      toucher, ton aventurier prend en charge une urgence vitale ou une
+      affection temporaire, comme la paralysie, les effets d&rsquo;un poison,
+      une br&ucirc;lure chimique et ainsi de suite. Il stabilise son patient ou
+      le sort d&rsquo;affaire, comme le ferait un r&eacute;pit. Il peut,
+      &agrave; la place, rendre 1d8 points de vie par niveau au toucher.</p>
+    RR: '1'
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: NIWpBus5dzNIDt22
+  templateSystemUniqueVersion: 3029886476
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_id: NIWpBus5dzNIDt22
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!NIWpBus5dzNIDt22'
+

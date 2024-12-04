@@ -1,0 +1,222 @@
+name: PRESTIDIGITATION
+type: equippableItem
+img: modules/coeurs-vaillants-2/icone/bdb/magie.webp
+system:
+  hidden: []
+  header:
+    contents: []
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    visibilityFormula: null
+    flow: vertical
+    align: ''
+    type: panel
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: dist_magie
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Personnel
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Personnel
+                  value: Personnel
+                - key: Toucher
+                  value: Toucher
+                - key: 10 Pas
+                  value: 10 Pas
+                - key: 12 Pas
+                  value: 12 Pas
+                - key: 18 Pas
+                  value: 18 Pas
+                - key: 36 Pas
+                  value: 36 Pas
+            - key: temps_magie
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Répit
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Instantané
+                  value: Instantané
+                - key: Répit
+                  value: Répit
+                - key: Repos
+                  value: Repos
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: dist_magie_p
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Personnel
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Personnel
+                  value: Personnel
+                - key: Toucher
+                  value: Toucher
+                - key: 10 Pas
+                  value: 10 Pas
+                - key: 12 Pas
+                  value: 12 Pas
+                - key: 18 Pas
+                  value: 18 Pas
+                - key: 36 Pas
+                  value: 36 Pas
+            - key: temps_magie_p
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Répit
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Instantané
+                  value: Instantané
+                - key: Répit
+                  value: Répit
+                - key: Repos
+                  value: Repos
+        cols: 3
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: null
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: U4zcvy0kqpagNSzf
+  props:
+    name: PRESTIDIGITATION
+    dist_magie: Personnel
+    temps_magie: Repos
+    dist_magie_p: Personnel
+    temps_magie_p: Instantané
+    atour: <p>Un sort pour se simplifier la vie.<br><br></p>
+    usuel: >-
+      <p><strong>Serviteur.&nbsp;</strong>Durant toute la dur&eacute;e
+      du&nbsp;sort, ton aventurier accomplit par magie toutes sortes de
+      petites&nbsp;t&acirc;ches simples &ndash; &eacute;mettre une petite
+      musique d&rsquo;ambiance, allumer&nbsp;une torche, nettoyer un objet ou
+      des v&ecirc;tements, r&eacute;chauffer&nbsp;de la nourriture, changer la
+      couleur d&rsquo;un tissu, faire appara&icirc;tre&nbsp;un symbole,
+      cr&eacute;er un jouet d&rsquo;enfant &eacute;ph&eacute;m&egrave;re, et
+      ainsi de suite.<br><br></p>
+    prouesse: >-
+      <p><strong>Factotum (1PA).</strong> Ton aventurier&nbsp;obtient un effet
+      utile et bienvenu comme r&eacute;parer une roue de chariot,&nbsp;bloquer
+      une porte en faisant gonfler ses huisseries, invoquer un
+      outil,&nbsp;&eacute;teindre un d&eacute;but d&rsquo;incendie et ainsi de
+      suite.</p>
+  modifiers: []
+  unique: false
+  uniqueId: 0ZUxvWhHdPwbrnQg
+  templateSystemUniqueVersion: 4286810332
+effects: []
+flags:
+  custom-system-builder:
+    version: 3.2.4
+  scene-packer:
+    sourceId: Item.C6egeDLy1o2bnWN9
+    hash: 3817e05a0f26d26ada68f8fd665da4ac04f4c2c0
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+folder: bDAjOqKjWVnIAC0L
+_id: 0ZUxvWhHdPwbrnQg
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!0ZUxvWhHdPwbrnQg'
+

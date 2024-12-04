@@ -1,0 +1,166 @@
+folder: foSPMSELozWMPCRB
+name: MARGINAL
+type: equippableItem
+img: modules/coeurs-vaillants-2/icone/bdb/origine.webp
+system:
+  hidden: []
+  header:
+    contents: []
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: choix01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour choix 1
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+            - null
+          - - key: choix02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour choix 2
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        cols: 2
+        rows: 4
+        layout: lc
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: dVv9fdRFsu4UUbJ0
+  props:
+    name: MARGINAL
+    choix_01: false
+    choix_02: false
+    atour: >-
+      <p>Ton aventurier a grandi sur les marges de la soci&eacute;t&eacute;,
+      dans ses interstices, aupr&egrave;s des criminels et des boh&egrave;mes,
+      des plus mis&eacute;reux&nbsp;et des plus m&eacute;pris&eacute;s. Il
+      s&rsquo;est d&eacute;brouill&eacute; et a certainement connu la faim, mais
+      c&rsquo;&eacute;tait peut-&ecirc;tre, quand m&ecirc;me, une
+      enfance&nbsp;heureuse.</p>
+    choix01: >-
+      <p><strong>Endurci.</strong> Ton aventurier peut bouffer n&rsquo;importe
+      quoi et dormir n&rsquo;importe o&ugrave;.</p>
+    choix02: >-
+      <p><strong>Manoeuvre.</strong> Ton aventurier sait bosser dans les
+      manufactures et sur les chantiers, sans faillir ni faiblir.&nbsp;</p>
+    prouesse: >-
+      <p><strong>Plein de ressources (1PA).</strong> Ton aventurier relance un
+      jet de r&eacute;solution de son choix (mais sans b&eacute;n&eacute;ficier
+      de l&rsquo;avantage).</p>
+  modifiers: []
+  unique: true
+  uniqueId: qDth4dKtyMFz9Rxw
+  templateSystemUniqueVersion: 4051763885
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_id: qDth4dKtyMFz9Rxw
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!qDth4dKtyMFz9Rxw'
+

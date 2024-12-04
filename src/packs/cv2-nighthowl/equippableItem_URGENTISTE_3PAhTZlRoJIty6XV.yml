@@ -1,0 +1,188 @@
+folder: fiJbzGDzjGmah5Wd
+name: URGENTISTE
+type: equippableItem
+_id: 3PAhTZlRoJIty6XV
+img: modules/coeurs-vaillants-2/icone/night-howl/insigne.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: Ki1bSmsjyNY1FqQ4
+  props:
+    name: URGENTISTE
+    QQ: '3'
+    atour: >-
+      <p><strong>Infirmerie volante.</strong> Ton aventurier connait toutes
+      sortes de<br>moyens, naturels et pharmaceutiques, pour soulager la
+      plupart<br>des petites douleurs et des maladies courantes, ce qui en
+      fait<br>un visiteur important et respect&eacute; dans toutes les
+      communaut&eacute;s<br>aux marges de la soci&eacute;t&eacute;, &agrave; qui
+      les gens se confient volontiers ou<br>offrent
+      l&rsquo;hospitalit&eacute;.<br><br></p>
+    usuel: >-
+      <p><strong>Premiers secours (2 +niveau).</strong> Au prix d&rsquo;une
+      action libre et<br>au toucher, ton aventurier rend 1d8 +niveau points de
+      vie &agrave; une<br>cr&eacute;ature vivante. Il ajoute aussi son niveau
+      &agrave; toute r&eacute;cup&eacute;ration<br>de points de vie durant un
+      r&eacute;pit, pour tous ses compagnons.<br></p>
+    prouesse: >-
+      <p><strong>Urgentiste (1PA). </strong>Au prix d&rsquo;une action et au
+      toucher, ton aventurier<br>prend en charge une urgence vitale ou une
+      affection temporaire,<br>comme la paralysie, les effets d&rsquo;un poison,
+      une d&eacute;tresse, un malaise<br>et ainsi de suite. Il stabilise son
+      patient ou le sort d&rsquo;affaire, comme le<br>ferait un r&eacute;pit. Il
+      peut, &agrave; la place, rendre 1d8 points de vie par niveau<br>au
+      toucher.</p>
+    RR: '3'
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: 3PAhTZlRoJIty6XV
+  templateSystemUniqueVersion: 3029886476
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.1.1
+  createdTime: 1732291056187
+  modifiedTime: 1732291056187
+  lastModifiedBy: z78nMmVCAe8LCaSO
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!3PAhTZlRoJIty6XV'
+

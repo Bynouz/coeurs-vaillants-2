@@ -1,0 +1,189 @@
+folder: lw0jBlKlDNUUOF8h
+name: ÉCLAIREUR
+type: equippableItem
+img: modules/coeurs-vaillants-2/icone/bdb/metier.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: Ki1bSmsjyNY1FqQ4
+  props:
+    name: ÉCLAIREUR
+    QQ: '1'
+    atour: >-
+      <p><strong>Sur la piste.</strong> Ton aventurier peut suivre des pistes
+      difficiles et,&nbsp;parfois, dans les conditions les plus extr&ecirc;mes
+      &ndash; tant que le temps&nbsp;ne les a pas effac&eacute;es. De
+      m&ecirc;me, il sait estomper ses traces et celles&nbsp;de ses compagnons,
+      g&ecirc;nant consid&eacute;rablement les cr&eacute;atures
+      qui&nbsp;seraient tent&eacute;es de le suivre.</p>
+    usuel: >-
+      <p><strong>Traces et empreintes (1 +demi-niveau).</strong> Ton
+      aventurier&nbsp;reconstitue l&rsquo;histoire r&eacute;cente d&rsquo;un
+      lieu en rep&eacute;rant de subtils&nbsp;d&eacute;tails &ndash; qui est
+      pass&eacute;, les &eacute;v&egrave;nements les plus probables qui
+      s&rsquo;y&nbsp;sont d&eacute;roul&eacute;s et ainsi de suite &ndash;
+      m&ecirc;me apr&egrave;s plusieurs jours ou&nbsp;semaines, selon la
+      m&eacute;t&eacute;orologie et la complexit&eacute; des traces.</p>
+    prouesse: >-
+      <p><strong>Coins et recoins (1PA).</strong> D&eacute;cris un nouvel
+      &eacute;l&eacute;ment du d&eacute;cor, coh&eacute;rent et cr&eacute;dible
+      avec les lieux, o&ugrave; ton aventurier sait pouvoir se faufiler, se
+      cacher ou y trouver quelque chose : un passage, une trappe, un ruisseau,
+      un chaos rocheux, une vieille cabane et ainsi de suite. Indique &agrave;
+      la ma&icirc;tresse de jeu ce que trouve ton aventurier et &agrave; quoi
+      &ccedil;a ressemble.</p>
+    RR: '1'
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: u654nF8kHf1viW1p
+  templateSystemUniqueVersion: 3029886476
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_id: u654nF8kHf1viW1p
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!u654nF8kHf1viW1p'
+

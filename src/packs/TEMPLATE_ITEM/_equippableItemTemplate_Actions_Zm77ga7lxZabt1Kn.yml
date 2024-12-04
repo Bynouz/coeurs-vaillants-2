@@ -1,0 +1,885 @@
+_id: Zm77ga7lxZabt1Kn
+name: Actions
+type: _equippableItemTemplate
+system:
+  hidden: []
+  header:
+    contents: []
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    visibilityFormula: null
+    flow: vertical
+    align: ''
+    type: panel
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: descrip_sub
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: null
+        type: table
+        contents:
+          - - key: desc_text
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: dmg_arme_num_item
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Dégât
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+          - - null
+        cols: '2'
+        rows: '1'
+        layout: cc
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: null
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '64'
+    pp_height: '64'
+  templateSystemUniqueVersion: 1777518737
+  uniqueId: Zm77ga7lxZabt1Kn
+flags:
+  custom-system-builder:
+    version: 3.2.4
+    templateHistory:
+      - - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+          lhs: null
+          rhs:
+            key: dmg_arme_num_item
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: null
+            type: textField
+            label: Dégât
+            defaultValue: ''
+            size: medium
+            charList: ''
+            maxLength: ''
+            autocomplete: ''
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - contents
+          index: 1
+          item:
+            kind: D
+            lhs:
+              key: desc_text
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - contents
+            - 0
+            - key
+          lhs: dmg_arme_num_item
+          rhs: desc_text
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - contents
+            - 0
+            - visibilityFormula
+          lhs: null
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - contents
+            - 0
+            - type
+          lhs: textField
+          rhs: textArea
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - contents
+            - 0
+            - label
+          lhs: Dégât
+          rhs: Description
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - contents
+            - 0
+            - size
+          lhs: medium
+          rhs: full-size
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - contents
+            - 0
+            - charList
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - contents
+            - 0
+            - maxLength
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - contents
+            - 0
+            - autocomplete
+          lhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - contents
+            - 0
+            - style
+          rhs: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - key
+      - - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - key
+          lhs: dmg_arme_num_item
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - role
+          lhs: '0'
+          rhs: 0
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - permission
+          lhs: '0'
+          rhs: 0
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - visibilityFormula
+          lhs: null
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - type
+          lhs: textField
+          rhs: panel
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - label
+          lhs: Dégât
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - defaultValue
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - size
+          lhs: medium
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - charList
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - maxLength
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - autocomplete
+          lhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - contents
+          rhs:
+            - key: desc_text
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: dmg_arme_num_item
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: null
+              type: textField
+              label: Dégât
+              defaultValue: ''
+              size: medium
+              charList: ''
+              maxLength: ''
+              autocomplete: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - flow
+          rhs: vertical
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - align
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - collapsible
+          rhs: false
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - defaultCollapsed
+          rhs: true
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - title
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - titleStyle
+          rhs: default
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - contents
+          index: 0
+          item:
+            kind: D
+            lhs:
+              key: desc_text
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - key
+      - - kind: A
+          path:
+            - body
+            - contents
+          index: 1
+          item:
+            kind: 'N'
+            rhs:
+              key: dmg_arme_num_item
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: null
+              type: textField
+              label: Dégât
+              defaultValue: ''
+              size: medium
+              charList: ''
+              maxLength: ''
+              autocomplete: ''
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - contents
+          index: 1
+          item:
+            kind: D
+            lhs:
+              key: dmg_arme_num_item
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: null
+              type: textField
+              label: Dégât
+              defaultValue: ''
+              size: medium
+              charList: ''
+              maxLength: ''
+              autocomplete: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - key
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - key
+      - - kind: A
+          path:
+            - body
+            - contents
+          index: 2
+          item:
+            kind: 'N'
+            rhs:
+              key: desc_text
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - contents
+          index: 0
+          item:
+            kind: D
+            lhs:
+              key: desc_text
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - key
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - key
+      - - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - key
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+          lhs:
+            cssClass: ''
+            role: 0
+            permission: 0
+            tooltip: ''
+            visibilityFormula: ''
+            type: panel
+            contents: []
+            flow: vertical
+            align: ''
+            collapsible: false
+            defaultCollapsed: true
+            title: ''
+            titleStyle: default
+          rhs: null
+      - - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+          lhs:
+            cssClass: ''
+            role: 0
+            permission: 0
+            tooltip: ''
+            visibilityFormula: ''
+            type: panel
+            contents: []
+            flow: vertical
+            align: ''
+            collapsible: false
+            defaultCollapsed: true
+            title: ''
+            titleStyle: default
+          rhs: null
+      - - kind: A
+          path:
+            - body
+            - contents
+          index: 2
+          item:
+            kind: D
+            lhs:
+              key: desc_text
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - key
+          lhs: dmg_arme_num_item
+          rhs: desc_text
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - visibilityFormula
+          lhs: null
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - type
+          lhs: textField
+          rhs: textArea
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - label
+          lhs: Dégât
+          rhs: Description
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - size
+          lhs: medium
+          rhs: full-size
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - charList
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - maxLength
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - autocomplete
+          lhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - style
+          rhs: dialog
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+          lhs: null
+          rhs:
+            key: dmg_arme_num_item
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: null
+            type: textField
+            label: Dégât
+            defaultValue: ''
+            size: medium
+            charList: ''
+            maxLength: ''
+            autocomplete: ''
+      - - kind: A
+          path:
+            - body
+            - contents
+          index: 1
+          item:
+            kind: D
+            lhs:
+              key: desc_text
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+          lhs: null
+          rhs:
+            key: desc_text
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: textArea
+            label: Description
+            defaultValue: ''
+            size: full-size
+            style: dialog
+      - - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - visibilityFormula
+          lhs: null
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - defaultValue
+          lhs: ''
+          rhs: '0'
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - maxLength
+          lhs: ''
+      - - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - maxLength
+    templateHistoryRedo: []
+  scene-packer:
+    hash: bb236022e0b2253ea450e822c702f410251d7e52
+img: icons/svg/item-bag.svg
+effects: []
+folder: ZSr3aiy87AMObjIf
+sort: 100000
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1732711742411
+  modifiedTime: 1732711742411
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_key: '!items!Zm77ga7lxZabt1Kn'
+

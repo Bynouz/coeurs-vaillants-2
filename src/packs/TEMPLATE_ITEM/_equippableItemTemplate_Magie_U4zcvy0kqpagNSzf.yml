@@ -1,0 +1,1265 @@
+_id: U4zcvy0kqpagNSzf
+name: Magie
+type: _equippableItemTemplate
+system:
+  hidden: []
+  header:
+    contents: []
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    visibilityFormula: null
+    flow: vertical
+    align: ''
+    type: panel
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: dist_magie
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Personnel
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Personnel
+                  value: Personnel
+                - key: Toucher
+                  value: Toucher
+                - key: 10 Pas
+                  value: 10 Pas
+                - key: 12 Pas
+                  value: 12 Pas
+                - key: 18 Pas
+                  value: 18 Pas
+                - key: 36 Pas
+                  value: 36 Pas
+            - key: temps_magie
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Répit
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Instantané
+                  value: Instantané
+                - key: Répit
+                  value: Répit
+                - key: Repos
+                  value: Repos
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: dist_magie_p
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Personnel
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Personnel
+                  value: Personnel
+                - key: Toucher
+                  value: Toucher
+                - key: 10 Pas
+                  value: 10 Pas
+                - key: 12 Pas
+                  value: 12 Pas
+                - key: 18 Pas
+                  value: 18 Pas
+                - key: 36 Pas
+                  value: 36 Pas
+            - key: temps_magie_p
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Répit
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Instantané
+                  value: Instantané
+                - key: Répit
+                  value: Répit
+                - key: Repos
+                  value: Repos
+        cols: 3
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: null
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  templateSystemUniqueVersion: 4286810332
+  uniqueId: U4zcvy0kqpagNSzf
+flags:
+  custom-system-builder:
+    version: 3.2.4
+    templateHistory:
+      - - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - formulaLabelOptions
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - rows
+          lhs: 2
+          rhs: 3
+      - - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 0
+          lhs: null
+          rhs:
+            key: prouesse
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: usuel_test >0
+            type: textArea
+            label: Prouesse
+            defaultValue: ''
+            size: full-size
+            style: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - formulaLabelOptions
+      - - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+          lhs: null
+          rhs:
+            key: dist_magie_copy1
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: select
+            label: ''
+            defaultValue: Personnel
+            size: m-small
+            selectedOptionType: custom
+            options:
+              - key: Personnel
+                value: Personnel
+              - key: Toucher
+                value: Toucher
+              - key: 10 Pas
+                value: 10 Pas
+              - key: 12 Pas
+                value: 12 Pas
+              - key: 18 Pas
+                value: 18 Pas
+              - key: 36 Pas
+                value: 36 Pas
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - formulaLabelOptions
+      - - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 2
+          lhs: null
+          rhs:
+            key: temps_magie_copy1
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: select
+            label: ''
+            defaultValue: Répit
+            size: m-small
+            selectedOptionType: custom
+            options:
+              - key: Instantané
+                value: Instantané
+              - key: Répit
+                value: Répit
+              - key: Repos
+                value: Repos
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - formulaLabelOptions
+      - - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 2
+            - formulaLabelOptions
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - key
+          lhs: dist_magie_copy1
+          rhs: dist_magie_p
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - formulaLabelOptions
+      - - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 2
+            - key
+          lhs: temps_magie_copy1
+          rhs: temps_magie_p
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - formulaLabelOptions
+      - - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - formulaLabelOptions
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 0
+            - visibilityFormula
+          lhs: usuel_test >0
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - formulaLabelOptions
+    templateHistoryRedo: []
+img: icons/svg/item-bag.svg
+effects: []
+folder: MKfDTzs1HtvBbbaf
+sort: 700000
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1732711742411
+  modifiedTime: 1732711742411
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_key: '!items!U4zcvy0kqpagNSzf'
+

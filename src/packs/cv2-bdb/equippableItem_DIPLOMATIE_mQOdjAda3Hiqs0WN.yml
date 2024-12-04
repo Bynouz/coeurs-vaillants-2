@@ -1,0 +1,219 @@
+name: DIPLOMATIE
+type: equippableItem
+img: modules/coeurs-vaillants-2/icone/bdb/magie.webp
+system:
+  hidden: []
+  header:
+    contents: []
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    visibilityFormula: null
+    flow: vertical
+    align: ''
+    type: panel
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: dist_magie
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Personnel
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Personnel
+                  value: Personnel
+                - key: Toucher
+                  value: Toucher
+                - key: 10 Pas
+                  value: 10 Pas
+                - key: 12 Pas
+                  value: 12 Pas
+                - key: 18 Pas
+                  value: 18 Pas
+                - key: 36 Pas
+                  value: 36 Pas
+            - key: temps_magie
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Répit
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Instantané
+                  value: Instantané
+                - key: Répit
+                  value: Répit
+                - key: Repos
+                  value: Repos
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: dist_magie_p
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Personnel
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Personnel
+                  value: Personnel
+                - key: Toucher
+                  value: Toucher
+                - key: 10 Pas
+                  value: 10 Pas
+                - key: 12 Pas
+                  value: 12 Pas
+                - key: 18 Pas
+                  value: 18 Pas
+                - key: 36 Pas
+                  value: 36 Pas
+            - key: temps_magie_p
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Répit
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Instantané
+                  value: Instantané
+                - key: Répit
+                  value: Répit
+                - key: Repos
+                  value: Repos
+        cols: 3
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: null
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: U4zcvy0kqpagNSzf
+  props:
+    name: DIPLOMATIE
+    dist_magie: Toucher
+    temps_magie: Repos
+    dist_magie_p: 12 Pas
+    temps_magie_p: Repos
+    atour: <p>Un sort pour favoriser les rapports sociaux.</p>
+    usuel: >-
+      <p><strong>Charme.</strong> Un humano&iuml;de ou un animal
+      consid&egrave;re ton aventurier comme un ami &agrave; moins qu&rsquo;il ne
+      r&eacute;ussisse&nbsp;un jet de sauvegarde ou qu&rsquo;il soit trahi. En
+      combat, la cible&nbsp;b&eacute;n&eacute;ficie d&rsquo;un avantage au jet
+      de sauvegarde, mais en cas d&rsquo;&eacute;chec,&nbsp;elle combat aux
+      c&ocirc;t&eacute;s des aventuriers.</p>
+    prouesse: >-
+      <p><strong>Linguistique (1PA).</strong> Ton aventurier et toutes les
+      cr&eacute;atures &agrave; port&eacute;e comprennent, parlent, lisent et
+      &eacute;crivent au moins&nbsp;une langue commune, choisie par ton
+      aventurier.</p>
+  modifiers: []
+  unique: false
+  uniqueId: mQOdjAda3Hiqs0WN
+  templateSystemUniqueVersion: 4286810332
+effects: []
+flags:
+  custom-system-builder:
+    version: 3.2.4
+  scene-packer:
+    sourceId: Item.rDeJrqDQ9c181PBC
+    hash: e851ad7921290541924b9b5b4ea995ad6fdd5b45
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+folder: bDAjOqKjWVnIAC0L
+_id: mQOdjAda3Hiqs0WN
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!mQOdjAda3Hiqs0WN'
+

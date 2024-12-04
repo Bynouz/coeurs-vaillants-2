@@ -1,0 +1,191 @@
+folder: fiJbzGDzjGmah5Wd
+name: LÉGISTE
+type: equippableItem
+_id: qbk9KwM1PmZMFQzj
+img: modules/coeurs-vaillants-2/icone/night-howl/insigne.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: Ki1bSmsjyNY1FqQ4
+  props:
+    name: LÉGISTE
+    QQ: '1'
+    atour: >-
+      <p><strong>Attentif aux d&eacute;tails. </strong>Ton aventurier est
+      observateur et attentif<br>aux moindres d&eacute;tails dans son
+      environnement. Il ne lui faut<br>que quelques indices
+      g&eacute;n&eacute;riques pour reconstituer rapidement<br>les habitudes
+      d&rsquo;un lieu, ses usages probables, ses pi&egrave;ges ou
+      ses<br>ressources. Il sait toujours o&ugrave; se placer au mieux pour
+      observer,<br>surveiller et planquer.<br><br></p>
+    usuel: >-
+      <p><strong>Traces et empreintes (1 +demi-niveau).</strong> Ton
+      aventurier<br>reconstitue l&rsquo;histoire r&eacute;cente d&rsquo;un lieu
+      en rep&eacute;rant de subtils<br>d&eacute;tails &ndash; qui est
+      pass&eacute;, les &eacute;v&egrave;nements les plus probables
+      qui<br>s&rsquo;y sont d&eacute;roul&eacute;s et ainsi de suite &ndash;
+      m&ecirc;me apr&egrave;s plusieurs jours,<br>selon la
+      m&eacute;t&eacute;orologie et la complexit&eacute; des traces.<br><br></p>
+    prouesse: >-
+      <p><strong>Examen clinique (1PA). </strong>Ton aventurier obtient toutes
+      sortes d&rsquo;informations<br>int&eacute;ressantes et pr&eacute;cises en
+      examinant attentivement une<br>sc&egrave;ne de crime, un corps, un
+      v&eacute;hicule et ainsi de suite. Par ailleurs, en<br>pr&eacute;levant
+      avec rigueur &eacute;chantillons, vid&eacute;os, photos, relev&eacute; 3D
+      et ainsi<br>de suite, il r&eacute;unit des indices qui, s&rsquo;ils ne
+      l&rsquo;&eacute;clairent pas tout de suite,<br>pourront se
+      r&eacute;v&eacute;ler utiles par la suite.</p>
+    RR: '1'
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: qbk9KwM1PmZMFQzj
+  templateSystemUniqueVersion: 3029886476
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.1.1
+  createdTime: 1732291056187
+  modifiedTime: 1732291056187
+  lastModifiedBy: z78nMmVCAe8LCaSO
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!qbk9KwM1PmZMFQzj'
+

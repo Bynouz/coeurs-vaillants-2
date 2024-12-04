@@ -1,0 +1,304 @@
+name: Epée
+type: equippableItem
+img: icons/weapons/swords/greatsword-crossguard-engraved-green.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: panel
+        contents:
+          - key: SS
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: Equipé ?
+            size: full-size
+            defaultChecked: false
+          - key: usuel_test
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: Usuel ?
+            size: full-size
+            defaultChecked: false
+          - key: maitre_test
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: Maître ?
+            size: full-size
+            defaultChecked: false
+        flow: grid-3
+        align: center
+        collapsible: false
+        defaultCollapsed: false
+        title: ''
+        titleStyle: default
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    visibilityFormula: null
+    flow: vertical
+    align: ''
+    type: panel
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: panel
+        contents:
+          - key: ''
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: table
+            contents:
+              - - key: atour
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: textArea
+                  label: Atour
+                  defaultValue: ''
+                  size: full-size
+                  style: dialog
+                - null
+                - null
+              - - key: usuel
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textArea
+                  label: Usuel
+                  defaultValue: ''
+                  size: full-size
+                  style: dialog
+                - null
+                - null
+              - - key: prouesse
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textArea
+                  label: Prouesse
+                  defaultValue: ''
+                  size: full-size
+                  style: dialog
+                - null
+            cols: 1
+            rows: 3
+            layout: lc
+          - key: ''
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: usuel_test >0
+            type: table
+            contents:
+              - - key: QQ
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textField
+                  label: Usage
+                  defaultValue: '0'
+                  size: medium
+                  charList: ''
+                  autocomplete: ''
+                - key: RR
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textField
+                  label: Max
+                  defaultValue: '0'
+                  size: medium
+                  charList: ''
+                  autocomplete: ''
+              - - null
+                - null
+            cols: 2
+            rows: 1
+            layout: cc
+        flow: vertical
+        align: center
+        collapsible: false
+        defaultCollapsed: false
+        title: ''
+        titleStyle: default
+      - key: Arme_panel_objet
+        cssClass: ''
+        role: '1'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: null
+        type: panel
+        contents:
+          - key: dmg_arme_num_item
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: null
+            type: textField
+            label: Dégât
+            defaultValue: ''
+            size: medium
+            charList: ''
+            maxLength: ''
+            autocomplete: ''
+          - key: bonus_num
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: numberField
+            label: Bonus d'attaque
+            defaultValue: '0'
+            size: medium
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: false
+            showControls: false
+            controlsStyle: hover
+            inputStyle: text
+          - key: type_liste
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: select
+            label: Type
+            defaultValue: '2'
+            size: medium
+            selectedOptionType: custom
+            options:
+              - key: '1'
+                value: Légère
+              - key: '2'
+                value: Moyenne
+              - key: '3'
+                value: Lourde
+            tableKey: null
+            tableKeyColumn: null
+            tableLabelColumn: null
+          - key: JJ
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: numberField
+            label: Prix
+            defaultValue: '0'
+            size: medium
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: false
+            showControls: true
+            controlsStyle: hover
+            inputStyle: text
+        flow: grid-3
+        align: center
+        collapsible: false
+        defaultCollapsed: true
+        title: ''
+        titleStyle: default
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: null
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: 1GAjIZIUWZk1Rl9e
+  props:
+    dmg_arme_num_item: 1d8+2
+    bonus_num: '0'
+    name: Epée
+    type_liste: '2'
+    JJ: '0'
+    QQ: '0'
+    RR: '0'
+  modifiers: []
+  unique: false
+  uniqueId: xd1GYUp2m6E06xlT
+  templateSystemUniqueVersion: 3398596824
+effects: []
+flags:
+  custom-system-builder:
+    version: 3.2.4
+  scene-packer:
+    sourceId: Item.K4jzmCgjzflXGlZi
+    hash: 3720943d7ff2119dc9cb591c85f3ec950baf2b4d
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+folder: 9x6nISPr5u9iT4rr
+_id: xd1GYUp2m6E06xlT
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!xd1GYUp2m6E06xlT'
+

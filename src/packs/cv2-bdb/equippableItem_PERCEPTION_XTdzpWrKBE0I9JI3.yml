@@ -1,0 +1,218 @@
+name: PERCEPTION
+type: equippableItem
+img: modules/coeurs-vaillants-2/icone/bdb/magie.webp
+system:
+  hidden: []
+  header:
+    contents: []
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    visibilityFormula: null
+    flow: vertical
+    align: ''
+    type: panel
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: dist_magie
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Personnel
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Personnel
+                  value: Personnel
+                - key: Toucher
+                  value: Toucher
+                - key: 10 Pas
+                  value: 10 Pas
+                - key: 12 Pas
+                  value: 12 Pas
+                - key: 18 Pas
+                  value: 18 Pas
+                - key: 36 Pas
+                  value: 36 Pas
+            - key: temps_magie
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Répit
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Instantané
+                  value: Instantané
+                - key: Répit
+                  value: Répit
+                - key: Repos
+                  value: Repos
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: dist_magie_p
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Personnel
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Personnel
+                  value: Personnel
+                - key: Toucher
+                  value: Toucher
+                - key: 10 Pas
+                  value: 10 Pas
+                - key: 12 Pas
+                  value: 12 Pas
+                - key: 18 Pas
+                  value: 18 Pas
+                - key: 36 Pas
+                  value: 36 Pas
+            - key: temps_magie_p
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Répit
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Instantané
+                  value: Instantané
+                - key: Répit
+                  value: Répit
+                - key: Repos
+                  value: Repos
+        cols: 3
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: null
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: U4zcvy0kqpagNSzf
+  props:
+    name: PERCEPTION
+    dist_magie: Personnel
+    temps_magie: Répit
+    dist_magie_p: 12 Pas
+    temps_magie_p: Répit
+    atour: <p>Un sort pour y voir clair.<br><br></p>
+    usuel: >-
+      <p><strong>Lumi&egrave;re. </strong>Ton aventurier cr&eacute;e une source
+      de lumi&egrave;re faible qui flotte pr&egrave;s de lui et &eacute;claire
+      jusqu&rsquo;&agrave; 12 pas.&nbsp;Il peut l&rsquo;&eacute;teindre et
+      l&rsquo;allumer &agrave; volont&eacute; durant toute la dur&eacute;e
+      des&nbsp;effets et en modifier la couleur, l&rsquo;orientation et la
+      port&eacute;e, comme&nbsp;avec une lanterne sourde.<br><br></p>
+    prouesse: >-
+      <p><strong>Vision dans le noir (1PA).</strong> Ton aventurier
+      conf&egrave;re &agrave; lui-m&ecirc;me et &agrave; ses compagnons la
+      capacit&eacute; de voir dans le noir.</p>
+  modifiers: []
+  unique: false
+  uniqueId: XTdzpWrKBE0I9JI3
+  templateSystemUniqueVersion: 4286810332
+effects: []
+flags:
+  custom-system-builder:
+    version: 3.2.4
+  scene-packer:
+    sourceId: Item.mhWrZv3kttBo3Tnt
+    hash: de2dbda0caa814103d353b36ba036f270f020f5b
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+folder: bDAjOqKjWVnIAC0L
+_id: XTdzpWrKBE0I9JI3
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!XTdzpWrKBE0I9JI3'
+

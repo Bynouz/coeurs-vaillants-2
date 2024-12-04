@@ -1,0 +1,189 @@
+folder: fiJbzGDzjGmah5Wd
+name: EXPERT
+type: equippableItem
+_id: eFOCRQOuERW1VIqu
+img: modules/coeurs-vaillants-2/icone/night-howl/insigne.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: Ki1bSmsjyNY1FqQ4
+  props:
+    name: EXPERT
+    QQ: '1'
+    atour: >-
+      <p><strong>Acc&egrave;s.</strong> Ton aventurier poss&egrave;de toutes
+      sortes d&rsquo;autorisations<br>sp&eacute;ciales et de pr&eacute;rogatives
+      particuli&egrave;res qui lui ont &eacute;t&eacute; accord&eacute;es<br>par
+      sa hi&eacute;rarchie &ndash; pour d&eacute;clencher des enqu&ecirc;tes,
+      requ&eacute;rir des<br>moyens sp&eacute;ciaux, engager des fonds
+      sp&eacute;cifiques et ainsi de suite.<br>Toutes ces activit&eacute;s
+      &eacute;tant enregistr&eacute;es et souvent surveill&eacute;es,
+      la<br>ma&icirc;tresse de jeu est libre de faire intervenir les affaires
+      internes<br>si ton aventurier fait n&rsquo;importe quoi avec son
+      badge.<br><br></p>
+    usuel: >-
+      <p><strong>Consultation (1 +demi-niveau). </strong>Ton aventurier
+      consulte<br>toutes sortes de bases de donn&eacute;es, acc&egrave;de
+      &agrave; des dossiers archiv&eacute;s<br>et, d&rsquo;une mani&egrave;re
+      g&eacute;n&eacute;rale, obtient des informations
+      r&eacute;serv&eacute;es<br>sur toutes sortes de sujets.<br><br></p>
+    prouesse: >-
+      <p><strong>Criminalistique (1PA). </strong>Ton aventurier fait analyser
+      des donn&eacute;es<br>par les laboratoires m&eacute;dicol&eacute;gaux du
+      LAPD ou ses services informatiques<br>&ndash; le processus peut prendre
+      quelques heures, mais ton aventurier<br>a toujours la priorit&eacute; de
+      traitement.</p>
+    RR: '1'
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: eFOCRQOuERW1VIqu
+  templateSystemUniqueVersion: 3029886476
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.1.1
+  createdTime: 1732291056187
+  modifiedTime: 1732291056187
+  lastModifiedBy: z78nMmVCAe8LCaSO
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!eFOCRQOuERW1VIqu'
+

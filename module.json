@@ -1,7 +1,10 @@
 {
   "id": "coeurs-vaillants-2",
   "title": "Coeurs Vaillants 2",
-  "version": "1.0",
+  "version": "#{VERSION}#",
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",  
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -69,8 +72,5 @@
         "ASSISTANT": "OWNER"
       }
     }
-  ],
-  "url": "https://gitlab.com/bynouz330/coeurs-vaillants-2",
-  "manifest": "https://gitlab.com/bynouz330/coeurs-vaillants-2/-/raw/main/module.json",
-  "download": "https://gitlab.com/bynouz330/coeurs-vaillants-2/-/archive/1.0.0/coeurs-vaillants-2.zip"
+  ]
 }

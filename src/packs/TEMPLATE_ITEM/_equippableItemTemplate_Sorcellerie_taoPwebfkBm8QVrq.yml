@@ -1,0 +1,412 @@
+name: Sorcellerie
+type: _equippableItemTemplate
+system:
+  hidden: []
+  header:
+    contents: []
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    visibilityFormula: null
+    flow: vertical
+    align: ''
+    type: panel
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: temps_magie
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Manoeuvre
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Manoeuvre
+                  value: Manoeuvre
+                - key: Action
+                  value: Action
+                - key: Condition
+                  value: Condition
+                - key: Permanent
+                  value: Permanent
+            - key: dist_magie
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: ''
+              defaultValue: Personnel
+              size: m-small
+              selectedOptionType: custom
+              options:
+                - key: Personnel
+                  value: Personnel
+                - key: Toucher
+                  value: Toucher
+                - key: 10 Pas
+                  value: 10 Pas
+                - key: 12 Pas
+                  value: 12 Pas
+                - key: 18 Pas
+                  value: 18 Pas
+                - key: 36 Pas
+                  value: 36 Pas
+          - - null
+            - null
+            - null
+          - - null
+            - null
+            - null
+        cols: 3
+        rows: 2
+        layout: lc
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: null
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '64'
+    pp_height: '64'
+  templateSystemUniqueVersion: 961125539
+  uniqueId: taoPwebfkBm8QVrq
+flags:
+  custom-system-builder:
+    version: 3.2.4
+    templateHistory:
+      - - kind: E
+          path:
+            - header
+            - flow
+          lhs: null
+          rhs: vertical
+        - kind: E
+          path:
+            - header
+            - align
+          lhs: null
+          rhs: ''
+        - kind: 'N'
+          path:
+            - header
+            - collapsible
+          rhs: false
+        - kind: 'N'
+          path:
+            - header
+            - defaultCollapsed
+          rhs: true
+        - kind: 'N'
+          path:
+            - header
+            - title
+          rhs: ''
+        - kind: 'N'
+          path:
+            - header
+            - titleStyle
+          rhs: default
+        - kind: A
+          path:
+            - body
+            - contents
+          index: 0
+          item:
+            kind: D
+            lhs:
+              key: magie_panel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: null
+              contents:
+                - key: desc_text
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: null
+                  label: Description
+                  defaultValue: ''
+                  size: null
+                  style: dialog
+                  type: textArea
+                - key: special_text
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: null
+                  label: Spécial
+                  defaultValue: ''
+                  size: null
+                  style: dialog
+                  type: textArea
+              flow: grid-2
+              align: center
+              type: panel
+        - kind: E
+          path:
+            - body
+            - flow
+          lhs: null
+          rhs: vertical
+        - kind: E
+          path:
+            - body
+            - align
+          lhs: null
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - collapsible
+          rhs: false
+        - kind: 'N'
+          path:
+            - body
+            - defaultCollapsed
+          rhs: true
+        - kind: 'N'
+          path:
+            - body
+            - title
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - titleStyle
+          rhs: default
+      - - kind: A
+          path:
+            - body
+            - contents
+          index: 0
+          item:
+            kind: 'N'
+            rhs:
+              key: ''
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: table
+              contents:
+                - - key: usuel
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: ''
+                    type: textArea
+                    label: Usuel
+                    defaultValue: ''
+                    size: full-size
+                    style: dialog
+                  - key: temps_magie
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: ''
+                    type: select
+                    label: ''
+                    defaultValue: Manoeuvre
+                    size: m-small
+                    selectedOptionType: custom
+                    options:
+                      - key: Manoeuvre
+                        value: Manoeuvre
+                      - key: Action
+                        value: Action
+                      - key: Condition
+                        value: Condition
+                      - key: Permanent
+                        value: Permanent
+                  - key: dist_magie
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: ''
+                    type: select
+                    label: ''
+                    defaultValue: Personnel
+                    size: m-small
+                    selectedOptionType: custom
+                    options:
+                      - key: Personnel
+                        value: Personnel
+                      - key: Toucher
+                        value: Toucher
+                      - key: 10 Pas
+                        value: 10 Pas
+                      - key: 12 Pas
+                        value: 12 Pas
+                      - key: 18 Pas
+                        value: 18 Pas
+                      - key: 36 Pas
+                        value: 36 Pas
+                - - null
+                  - null
+                  - null
+                - - null
+                  - null
+                  - null
+              cols: 3
+              rows: 2
+              layout: lc
+      - - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 2
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 2
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 2
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - tableKey
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - tableKeyColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - tableLabelColumn
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - formulaLabelOptions
+    templateHistoryRedo: []
+img: icons/svg/item-bag.svg
+effects: []
+folder: ZSr3aiy87AMObjIf
+sort: 250000
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: Item.U4zcvy0kqpagNSzf
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1732711742411
+  modifiedTime: 1732711742411
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_id: taoPwebfkBm8QVrq
+_key: '!items!taoPwebfkBm8QVrq'
+

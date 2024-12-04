@@ -1,0 +1,187 @@
+folder: fiJbzGDzjGmah5Wd
+name: INTUITIF
+type: equippableItem
+_id: 2sCQOjWvl5fdO2re
+img: modules/coeurs-vaillants-2/icone/night-howl/insigne.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: Ki1bSmsjyNY1FqQ4
+  props:
+    name: INTUITIF
+    QQ: '1'
+    atour: >-
+      <p><strong>Petit g&eacute;nie. </strong>Ton aventurier poss&egrave;de un
+      don &eacute;trange pour voir&nbsp;et comprendre ce que personne
+      d&rsquo;autre ne semble pouvoir saisir.</p>
+
+      <p>Est-il seulement hyper-attentif ? Est-ce un pouvoir psychique&nbsp;ou
+      m&eacute;diumnique ? Il est probable que &ccedil;a mette la plupart
+      de&nbsp;ses coll&egrave;gues mal &agrave; l&rsquo;aise et que &ccedil;a
+      impressionne les autres, qui&nbsp;attendent toujours de lui qu&rsquo;il
+      fasse des miracles.<br><br></p>
+    usuel: >-
+      <p><strong>Toujours raison (1 +demi-niveau). </strong>Ton aventurier
+      r&eacute;ussit&nbsp;automatiquement un jet de chance.<br><br></p>
+    prouesse: >-
+      <p><strong>Communion (1PA). </strong>Ton aventurier semble entrer en
+      communion&nbsp;avec un lieu et les gens qui s&rsquo;y trouvent, comme si
+      l&rsquo;endroit lui parlait&nbsp;directement. Pose une question &agrave;
+      la ma&icirc;tresse de jeu sur un sujet pour&nbsp;lequel tu ne devrais pas
+      normalement trouver de r&eacute;ponse ais&eacute;e ou rapide&nbsp;&ndash;
+      il est probable toutefois que plus la question sera large, plus la
+      r&eacute;ponse sera &eacute;nigmatique et crypt&eacute;e.</p>
+    RR: '1'
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: 2sCQOjWvl5fdO2re
+  templateSystemUniqueVersion: 3029886476
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.1.1
+  createdTime: 1732291056187
+  modifiedTime: 1732291056187
+  lastModifiedBy: z78nMmVCAe8LCaSO
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!2sCQOjWvl5fdO2re'
+

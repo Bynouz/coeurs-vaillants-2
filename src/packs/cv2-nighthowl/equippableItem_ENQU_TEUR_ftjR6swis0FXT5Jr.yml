@@ -1,0 +1,192 @@
+folder: fiJbzGDzjGmah5Wd
+name: ENQUÊTEUR
+type: equippableItem
+_id: ftjR6swis0FXT5Jr
+img: modules/coeurs-vaillants-2/icone/night-howl/insigne.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: Ki1bSmsjyNY1FqQ4
+  props:
+    name: ENQUÊTEUR
+    QQ: '1'
+    atour: >-
+      <p><strong>Investigation.</strong> Ton aventurier est un enqu&ecirc;teur
+      m&eacute;thodique<br>qui n&rsquo;oublie jamais que prendre des notes et
+      tenir ses dossiers<br>&agrave; jour est fondamental pour qui veut aller au
+      bout d&rsquo;un dossier.<br>Il est donc particuli&egrave;rement
+      organis&eacute; et peut toujours relire ses<br>carnets pour y trouver des
+      indices qu&rsquo;il avait rat&eacute; auparavant.<br>L&rsquo;important, au
+      bout du compte, n&rsquo;est pas tant de savoir la
+      v&eacute;rit&eacute;<br>que de pouvoir la d&eacute;montrer et la
+      prouver.</p>
+    usuel: >-
+      <p><strong>Interrogation (1 +demi-niveau).</strong> Ton aventurier soutire
+      une<br>information &agrave; un figurant en employant la tromperie, la
+      logique<br>ou l&rsquo;intimidation. Il sait instinctivement la
+      qualit&eacute; et la validit&eacute;<br>de cette information, que la cible
+      mente ou non. Un figurant plus<br>puissant peut effectuer un jet de
+      sauvegarde pour ne rien r&eacute;v&eacute;ler.</p>
+    prouesse: >-
+      <p><strong>Indic (1PA). </strong>Ton aventurier obtient une information
+      confidentielle<br>de la part de l&rsquo;un de ses indicateurs.
+      L&rsquo;information peut &eacute;maner d&rsquo;une<br>demande
+      pr&eacute;cise de ton aventurier, selon ses besoins, ou venir
+      spontan&eacute;ment<br>de l&rsquo;indic qui a appris des choses &ndash;
+      une bonne mani&egrave;re de<br>demander &agrave; la ma&icirc;tresse de jeu
+      un coup de main quand on ne sait plus<br>comment continuer son
+      enqu&ecirc;te.</p>
+    RR: '1'
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: ftjR6swis0FXT5Jr
+  templateSystemUniqueVersion: 3029886476
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.1.1
+  createdTime: 1732291056187
+  modifiedTime: 1732291056187
+  lastModifiedBy: z78nMmVCAe8LCaSO
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!ftjR6swis0FXT5Jr'
+

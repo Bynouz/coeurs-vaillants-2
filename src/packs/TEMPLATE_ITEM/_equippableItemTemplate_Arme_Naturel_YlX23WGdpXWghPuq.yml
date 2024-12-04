@@ -1,0 +1,823 @@
+name: Arme Naturel
+type: _equippableItemTemplate
+system:
+  hidden: []
+  header:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: panel
+        contents:
+          - key: maitre_test
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: Maître ?
+            size: full-size
+            defaultChecked: false
+        flow: vertical
+        align: center
+        collapsible: false
+        defaultCollapsed: false
+        title: ''
+        titleStyle: default
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    visibilityFormula: null
+    flow: vertical
+    align: ''
+    type: panel
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - null
+            - null
+            - null
+          - - null
+            - null
+        cols: 1
+        rows: 1
+        layout: lc
+      - key: Arme_panel_objet
+        cssClass: ''
+        role: '1'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: null
+        type: panel
+        contents:
+          - key: dmg_arme_num_item
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: null
+            type: textField
+            label: Dégât
+            defaultValue: ''
+            size: medium
+            charList: ''
+            maxLength: ''
+            autocomplete: ''
+          - key: bonus_num
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: numberField
+            label: Bonus d'attaque
+            defaultValue: '0'
+            size: medium
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: false
+            showControls: false
+            controlsStyle: hover
+            inputStyle: text
+        flow: grid-3
+        align: center
+        collapsible: false
+        defaultCollapsed: true
+        title: ''
+        titleStyle: default
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: null
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  templateSystemUniqueVersion: 1973750266
+  uniqueId: YlX23WGdpXWghPuq
+flags:
+  custom-system-builder:
+    version: 3.2.4
+    templateHistory:
+      - - kind: A
+          path:
+            - header
+            - contents
+          index: 0
+          item:
+            kind: D
+            lhs:
+              key: maitre_test
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: Maître ?
+              size: full-size
+              defaultChecked: false
+      - - kind: A
+          path:
+            - header
+            - contents
+          index: 0
+          item:
+            kind: 'N'
+            rhs:
+              key: ''
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: panel
+              contents:
+                - key: SS
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: checkbox
+                  label: Equipé ?
+                  size: full-size
+                  defaultChecked: false
+                - key: usuel_test
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: checkbox
+                  label: Usuel ?
+                  size: full-size
+                  defaultChecked: false
+                - key: maitre_test
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: checkbox
+                  label: Maître ?
+                  size: full-size
+                  defaultChecked: false
+              flow: grid-3
+              align: center
+              collapsible: false
+              defaultCollapsed: false
+              title: ''
+              titleStyle: default
+      - - kind: A
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+          index: 2
+          item:
+            kind: D
+            lhs:
+              key: maitre_test
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: Maître ?
+              size: full-size
+              defaultChecked: false
+        - kind: E
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 1
+            - key
+          lhs: usuel_test
+          rhs: maitre_test
+        - kind: E
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 1
+            - label
+          lhs: Usuel ?
+          rhs: Maître ?
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 1
+            - defaultValue
+        - kind: E
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - key
+          lhs: SS
+          rhs: usuel_test
+        - kind: E
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - label
+          lhs: Equipé ?
+          rhs: Usuel ?
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+      - - kind: A
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+          index: 1
+          item:
+            kind: D
+            lhs:
+              key: maitre_test
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: Maître ?
+              size: full-size
+              defaultChecked: false
+        - kind: E
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - key
+          lhs: usuel_test
+          rhs: maitre_test
+        - kind: E
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - label
+          lhs: Usuel ?
+          rhs: Maître ?
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+        - kind: E
+          path:
+            - header
+            - contents
+            - 0
+            - flow
+          lhs: grid-3
+          rhs: vertical
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+        - kind: A
+          path:
+            - body
+            - contents
+          index: 2
+          item:
+            kind: 'N'
+            rhs:
+              key: description_arme
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: null
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - key
+          lhs: description_arme
+          rhs: Arme_panel_objet
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - role
+          lhs: '0'
+          rhs: '1'
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - type
+          lhs: textArea
+          rhs: panel
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - label
+          lhs: Description
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - defaultValue
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - size
+          lhs: full-size
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - style
+          lhs: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+          rhs:
+            - key: dmg_arme_num_item
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: null
+              type: textField
+              label: Dégât
+              defaultValue: ''
+              size: medium
+              charList: ''
+              maxLength: ''
+              autocomplete: ''
+            - key: bonus_num
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: numberField
+              label: Bonus d'attaque
+              defaultValue: '0'
+              size: medium
+              allowDecimal: false
+              minVal: ''
+              maxVal: ''
+              allowRelative: false
+              showControls: false
+              controlsStyle: hover
+              inputStyle: text
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - flow
+          rhs: grid-3
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - align
+          rhs: center
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - collapsible
+          rhs: false
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - defaultCollapsed
+          rhs: true
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - title
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - titleStyle
+          rhs: default
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - key
+          lhs: Arme_panel_objet
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - role
+          lhs: '1'
+          rhs: '0'
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - visibilityFormula
+          lhs: null
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - type
+          lhs: panel
+          rhs: table
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 2
+          item:
+            kind: 'N'
+            rhs:
+              - key: prouesse
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textArea
+                label: Prouesse
+                defaultValue: ''
+                size: full-size
+                style: dialog
+              - null
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+          lhs:
+            key: bonus_num
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: numberField
+            label: Bonus d'attaque
+            defaultValue: '0'
+            size: medium
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: false
+            showControls: false
+            controlsStyle: hover
+            inputStyle: text
+          rhs:
+            - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: usuel_test >0
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+          lhs:
+            key: dmg_arme_num_item
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: null
+            type: textField
+            label: Dégât
+            defaultValue: ''
+            size: medium
+            charList: ''
+            maxLength: ''
+            autocomplete: ''
+          rhs:
+            - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - flow
+          lhs: grid-3
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - align
+          lhs: center
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - collapsible
+          lhs: false
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - defaultCollapsed
+          lhs: true
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - title
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - titleStyle
+          lhs: default
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - cols
+          rhs: 1
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - rows
+          rhs: 3
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - layout
+          rhs: lc
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+          lhs:
+            key: usuel
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: usuel_test >0
+            type: textArea
+            label: Usuel
+            defaultValue: ''
+            size: full-size
+            style: dialog
+          rhs: null
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 0
+          lhs:
+            key: prouesse
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: usuel_test >0
+            type: textArea
+            label: Prouesse
+            defaultValue: ''
+            size: full-size
+            style: dialog
+          rhs: null
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - rows
+          lhs: 3
+          rhs: 1
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+        - kind: A
+          path:
+            - body
+            - contents
+          index: 2
+          item:
+            kind: D
+            lhs:
+              key: description_arme
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: null
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+    templateHistoryRedo: []
+img: icons/svg/item-bag.svg
+effects: []
+folder: MKfDTzs1HtvBbbaf
+sort: 2000000
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: Item.1GAjIZIUWZk1Rl9e
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1732711742411
+  modifiedTime: 1732711742411
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_id: YlX23WGdpXWghPuq
+_key: '!items!YlX23WGdpXWghPuq'
+

@@ -1,0 +1,1563 @@
+_id: wVkwsIy4kj3LUBSh
+name: Armure
+type: _equippableItemTemplate
+system:
+  hidden: []
+  header:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: panel
+        contents:
+          - key: SS
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: Equipé ?
+            size: full-size
+            defaultChecked: false
+          - key: usuel_test
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: Usuel ?
+            size: full-size
+            defaultChecked: false
+        flow: grid-2
+        align: center
+        collapsible: false
+        defaultCollapsed: false
+        title: ''
+        titleStyle: default
+    key: custom_header
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: panel
+        contents:
+          - key: ''
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: table
+            contents:
+              - - key: atour
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: textArea
+                  label: Atour
+                  defaultValue: ''
+                  size: full-size
+                  style: dialog
+                - null
+                - null
+              - - key: usuel
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textArea
+                  label: Usuel
+                  defaultValue: ''
+                  size: full-size
+                  style: dialog
+                - null
+                - null
+              - - key: prouesse
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textArea
+                  label: Prouesse
+                  defaultValue: ''
+                  size: full-size
+                  style: dialog
+                - null
+            cols: 1
+            rows: 3
+            layout: lc
+          - key: ''
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: usuel_test >0
+            type: table
+            contents:
+              - - key: QQ
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textField
+                  label: Usage
+                  defaultValue: '0'
+                  size: medium
+                  charList: ''
+                  autocomplete: ''
+                - key: RR
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: usuel_test >0
+                  type: textField
+                  label: Max
+                  defaultValue: '0'
+                  size: medium
+                  charList: ''
+                  autocomplete: ''
+              - - null
+                - null
+            cols: 2
+            rows: 1
+            layout: cc
+        flow: vertical
+        align: center
+        collapsible: false
+        defaultCollapsed: false
+        title: ''
+        titleStyle: default
+      - key: Armure_panel
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: panel
+        contents:
+          - key: M
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: numberField
+            label: Armure
+            defaultValue: '0'
+            size: medium
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: false
+            showControls: true
+            controlsStyle: hover
+            inputStyle: text
+          - key: MM
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: numberField
+            label: Armure Magique
+            defaultValue: '0'
+            size: medium
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: false
+            showControls: true
+            controlsStyle: hover
+            inputStyle: text
+          - key: type_armure_list
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: select
+            label: Type
+            defaultValue: '1'
+            size: medium
+            selectedOptionType: custom
+            options:
+              - key: '1'
+                value: Légère
+              - key: '2'
+                value: Moyenne
+              - key: '3'
+                value: Lourde
+            tableKey: null
+            tableKeyColumn: null
+            tableLabelColumn: null
+          - key: JJ
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: numberField
+            label: Prix
+            defaultValue: '0'
+            size: medium
+            allowDecimal: false
+            minVal: ''
+            maxVal: ''
+            allowRelative: false
+            showControls: true
+            controlsStyle: hover
+            inputStyle: text
+        flow: grid-3
+        align: center
+        collapsible: false
+        defaultCollapsed: true
+        title: ''
+        titleStyle: default
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  templateSystemUniqueVersion: 195138989
+  uniqueId: wVkwsIy4kj3LUBSh
+  modifiers:
+    - id: c6iePibUX5ZRW7wP
+      conditionalGroup: ''
+      priority: 1
+      key: ca_num
+      operator: add
+      formula: '${SS ? M : 0}$'
+      description: ''
+    - id: EfarLaW6XWnUifuW
+      conditionalGroup: ''
+      priority: 1
+      key: ca_num
+      operator: add
+      formula: '${SS ? MM : 0}$'
+      description: ''
+    - id: K70OFtZ6rztMvmYY
+      conditionalGroup: ''
+      priority: 1
+      key: mouvement_num
+      operator: add
+      formula: '${SS ? M : 0}$'
+      description: ''
+flags:
+  custom-system-builder:
+    version: 3.2.4
+    templateHistory:
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 1
+            - defaultValue
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 0
+            - maxLength
+      - - kind: A
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+          index: 1
+          item:
+            kind: D
+            lhs:
+              key: usuel_test
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: Usuel ?
+              size: full-size
+              defaultChecked: false
+        - kind: E
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - key
+          lhs: SS
+          rhs: usuel_test
+        - kind: E
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - label
+          lhs: Equipé ?
+          rhs: Usuel ?
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 0
+            - maxLength
+      - - kind: A
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+          index: 0
+          item:
+            kind: D
+            lhs:
+              key: usuel_test
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: Usuel ?
+              size: full-size
+              defaultChecked: false
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 0
+            - maxLength
+      - - kind: A
+          path:
+            - header
+            - contents
+          index: 0
+          item:
+            kind: D
+            lhs:
+              key: ''
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: panel
+              contents: []
+              flow: grid-2
+              align: center
+              collapsible: false
+              defaultCollapsed: false
+              title: ''
+              titleStyle: default
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaLabelOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 0
+            - maxLength
+      - - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaLabelOptions
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 1
+          item:
+            kind: D
+            lhs:
+              key: ''
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: table
+              contents:
+                - - key: QQ
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: usuel_test >0
+                    type: textField
+                    label: Usage
+                    defaultValue: '0'
+                    size: medium
+                    charList: ''
+                    autocomplete: ''
+                  - key: RR
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: usuel_test >0
+                    type: textField
+                    label: Max
+                    defaultValue: '0'
+                    size: medium
+                    charList: ''
+                    autocomplete: ''
+                - - null
+                  - null
+              cols: 2
+              rows: 1
+              layout: cc
+      - - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaLabelOptions
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 0
+          item:
+            kind: D
+            lhs:
+              key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: usuel_test >0
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+      - - kind: A
+          path:
+            - body
+            - contents
+          index: 2
+          item:
+            kind: D
+            lhs:
+              key: desc_armure
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 2
+            - formulaLabelOptions
+      - - kind: A
+          path:
+            - body
+            - contents
+          index: 1
+          item:
+            kind: D
+            lhs:
+              key: Armure_panel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: panel
+              contents:
+                - key: M
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: numberField
+                  label: Armure
+                  defaultValue: '0'
+                  size: medium
+                  allowDecimal: false
+                  minVal: ''
+                  maxVal: ''
+                  allowRelative: false
+                  showControls: true
+                  controlsStyle: hover
+                  inputStyle: text
+                - key: MM
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: numberField
+                  label: Armure Magique
+                  defaultValue: '0'
+                  size: medium
+                  allowDecimal: false
+                  minVal: ''
+                  maxVal: ''
+                  allowRelative: false
+                  showControls: true
+                  controlsStyle: hover
+                  inputStyle: text
+                - key: type_armure_list
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: select
+                  label: Type
+                  defaultValue: '1'
+                  size: medium
+                  selectedOptionType: custom
+                  options:
+                    - key: '1'
+                      value: Légère
+                    - key: '2'
+                      value: Moyenne
+                    - key: '3'
+                      value: Lourde
+                  tableKey: null
+                  tableKeyColumn: null
+                  tableLabelColumn: null
+                - key: JJ
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: numberField
+                  label: Prix
+                  defaultValue: '0'
+                  size: medium
+                  allowDecimal: false
+                  minVal: ''
+                  maxVal: ''
+                  allowRelative: false
+                  showControls: true
+                  controlsStyle: hover
+                  inputStyle: text
+              flow: grid-3
+              align: center
+              collapsible: false
+              defaultCollapsed: true
+              title: ''
+              titleStyle: default
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - key
+          lhs: ''
+          rhs: Armure_panel
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - visibilityFormula
+          lhs: usuel_test >0
+          rhs: ''
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 3
+          item:
+            kind: 'N'
+            rhs:
+              key: JJ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: numberField
+              label: Prix
+              defaultValue: '0'
+              size: medium
+              allowDecimal: false
+              minVal: ''
+              maxVal: ''
+              allowRelative: false
+              showControls: true
+              controlsStyle: hover
+              inputStyle: text
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 2
+          item:
+            kind: 'N'
+            rhs:
+              key: type_armure_list
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: Type
+              defaultValue: '1'
+              size: medium
+              selectedOptionType: custom
+              options:
+                - key: '1'
+                  value: Légère
+                - key: '2'
+                  value: Moyenne
+                - key: '3'
+                  value: Lourde
+              tableKey: null
+              tableKeyColumn: null
+              tableLabelColumn: null
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 1
+          item:
+            kind: 'N'
+            rhs:
+              key: MM
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: numberField
+              label: Armure Magique
+              defaultValue: '0'
+              size: medium
+              allowDecimal: false
+              minVal: ''
+              maxVal: ''
+              allowRelative: false
+              showControls: true
+              controlsStyle: hover
+              inputStyle: text
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 0
+          item:
+            kind: 'N'
+            rhs:
+              key: M
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: numberField
+              label: Armure
+              defaultValue: '0'
+              size: medium
+              allowDecimal: false
+              minVal: ''
+              maxVal: ''
+              allowRelative: false
+              showControls: true
+              controlsStyle: hover
+              inputStyle: text
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - flow
+          lhs: vertical
+          rhs: grid-3
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - align
+          lhs: left
+          rhs: center
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - defaultCollapsed
+          lhs: false
+          rhs: true
+      - - kind: A
+          path:
+            - header
+            - contents
+          index: 0
+          item:
+            kind: 'N'
+            rhs:
+              key: ''
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: panel
+              contents:
+                - key: SS
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: checkbox
+                  label: Equipé ?
+                  size: full-size
+                  defaultChecked: false
+                - key: usuel_test
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: checkbox
+                  label: Usuel ?
+                  size: full-size
+                  defaultChecked: false
+              flow: grid-2
+              align: center
+              collapsible: false
+              defaultCollapsed: false
+              title: ''
+              titleStyle: default
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - formulaKeyOptions
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - formulaLabelOptions
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 1
+            - defaultValue
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+        - kind: A
+          path:
+            - body
+            - contents
+          index: 1
+          item:
+            kind: 'N'
+            rhs:
+              key: Armure_panel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: panel
+              contents:
+                - key: M
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: numberField
+                  label: Armure
+                  defaultValue: '0'
+                  size: medium
+                  allowDecimal: false
+                  minVal: ''
+                  maxVal: ''
+                  allowRelative: false
+                  showControls: true
+                  controlsStyle: hover
+                  inputStyle: text
+                - key: MM
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: numberField
+                  label: Armure Magique
+                  defaultValue: '0'
+                  size: medium
+                  allowDecimal: false
+                  minVal: ''
+                  maxVal: ''
+                  allowRelative: false
+                  showControls: true
+                  controlsStyle: hover
+                  inputStyle: text
+                - key: type_armure_list
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: select
+                  label: Type
+                  defaultValue: '1'
+                  size: medium
+                  selectedOptionType: custom
+                  options:
+                    - key: '1'
+                      value: Légère
+                    - key: '2'
+                      value: Moyenne
+                    - key: '3'
+                      value: Lourde
+                  tableKey: null
+                  tableKeyColumn: null
+                  tableLabelColumn: null
+                - key: JJ
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: numberField
+                  label: Prix
+                  defaultValue: '0'
+                  size: medium
+                  allowDecimal: false
+                  minVal: ''
+                  maxVal: ''
+                  allowRelative: false
+                  showControls: true
+                  controlsStyle: hover
+                  inputStyle: text
+              flow: grid-3
+              align: center
+              collapsible: false
+              defaultCollapsed: true
+              title: ''
+              titleStyle: default
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - key
+          lhs: Armure_panel
+          rhs: ''
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 3
+          item:
+            kind: D
+            lhs:
+              key: JJ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: numberField
+              label: Prix
+              defaultValue: '0'
+              size: medium
+              allowDecimal: false
+              minVal: ''
+              maxVal: ''
+              allowRelative: false
+              showControls: true
+              controlsStyle: hover
+              inputStyle: text
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 2
+          item:
+            kind: D
+            lhs:
+              key: type_armure_list
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: select
+              label: Type
+              defaultValue: '1'
+              size: medium
+              selectedOptionType: custom
+              options:
+                - key: '1'
+                  value: Légère
+                - key: '2'
+                  value: Moyenne
+                - key: '3'
+                  value: Lourde
+              tableKey: null
+              tableKeyColumn: null
+              tableLabelColumn: null
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - key
+          lhs: MM
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - visibilityFormula
+          lhs: ''
+          rhs: usuel_test >0
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - type
+          lhs: numberField
+          rhs: table
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - label
+          lhs: Armure Magique
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - defaultValue
+          lhs: '0'
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - size
+          lhs: medium
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - allowDecimal
+          lhs: false
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - minVal
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - maxVal
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - allowRelative
+          lhs: false
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - showControls
+          lhs: true
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - controlsStyle
+          lhs: hover
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - inputStyle
+          lhs: text
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+          rhs:
+            - - key: QQ
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textField
+                label: Usage
+                defaultValue: '0'
+                size: medium
+                charList: ''
+                autocomplete: ''
+              - key: RR
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textField
+                label: Max
+                defaultValue: '0'
+                size: medium
+                charList: ''
+                autocomplete: ''
+            - - null
+              - null
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - cols
+          rhs: 2
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - rows
+          rhs: 1
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - layout
+          rhs: cc
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - key
+          lhs: M
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - type
+          lhs: numberField
+          rhs: table
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - label
+          lhs: Armure
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+          lhs: '0'
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - size
+          lhs: medium
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - allowDecimal
+          lhs: false
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - minVal
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - maxVal
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - allowRelative
+          lhs: false
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - showControls
+          lhs: true
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - controlsStyle
+          lhs: hover
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - inputStyle
+          lhs: text
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+          rhs:
+            - - key: atour
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: ''
+                type: textArea
+                label: Atour
+                defaultValue: ''
+                size: full-size
+                style: dialog
+              - null
+              - null
+            - - key: usuel
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textArea
+                label: Usuel
+                defaultValue: ''
+                size: full-size
+                style: dialog
+              - null
+              - null
+            - - key: prouesse
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textArea
+                label: Prouesse
+                defaultValue: ''
+                size: full-size
+                style: dialog
+              - null
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - cols
+          rhs: 1
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - rows
+          rhs: 3
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - layout
+          rhs: lc
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - flow
+          lhs: grid-3
+          rhs: vertical
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - defaultCollapsed
+          lhs: true
+          rhs: false
+    templateHistoryRedo: []
+img: icons/svg/item-bag.svg
+effects: []
+folder: MKfDTzs1HtvBbbaf
+sort: 1800000
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1732711742411
+  modifiedTime: 1732711742411
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_key: '!items!wVkwsIy4kj3LUBSh'
+

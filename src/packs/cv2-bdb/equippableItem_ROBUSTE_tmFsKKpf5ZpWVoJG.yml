@@ -1,0 +1,134 @@
+folder: 2TdE97MgTQrMHLlj
+name: ROBUSTE
+type: equippableItem
+img: modules/coeurs-vaillants-2/icone/bdb/talent2.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Resources ?
+        size: full-size
+        defaultChecked: false
+    key: custom_header
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: usuel_test >0
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: usuel_test >0
+              type: textField
+              label: Usage
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: usuel_test >0
+              type: textField
+              label: Max
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+          - - null
+            - null
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: usuel
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: textArea
+        label: Usuel
+        defaultValue: ''
+        size: full-size
+        style: dialog
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: O8lL2zWi6JkXReBC
+  props:
+    name: ROBUSTE
+    QQ: '0'
+    RR: '0'
+    usuel_test: false
+    usuel: >-
+      <p>Ton aventurier poss&egrave;de 12 points de vie suppl&eacute;mentaires.
+      Lorsqu&rsquo;il prend un second souffle, il ajoute le bonus de Robuste au
+      r&eacute;sultat des jets de r&eacute;cup&eacute;ration.</p>
+  modifiers: []
+  unique: false
+  uniqueId: tmFsKKpf5ZpWVoJG
+  templateSystemUniqueVersion: 2684111215
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.2.0
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1733001378811
+  modifiedTime: 1733001378811
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_id: tmFsKKpf5ZpWVoJG
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!tmFsKKpf5ZpWVoJG'
+

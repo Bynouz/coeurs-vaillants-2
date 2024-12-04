@@ -1,0 +1,187 @@
+folder: fiJbzGDzjGmah5Wd
+name: ADMINISTRATIF
+type: equippableItem
+_id: I5Y9PmazeR8PftmY
+img: modules/coeurs-vaillants-2/icone/night-howl/insigne.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: Ki1bSmsjyNY1FqQ4
+  props:
+    name: ADMINISTRATIF
+    QQ: '1'
+    atour: >-
+      <p><strong>&Eacute;tiquette.</strong> Ton aventurier sait la
+      mani&egrave;re de parler aux employ&eacute;s<br>de bureaux, aux
+      secr&eacute;taires, aux petits chefs, pour ne<br>jamais f&acirc;cher
+      personne et s&rsquo;attirer les bonnes gr&acirc;ces de tout le<br>monde.
+      Il sait graisser les pattes, offrir des petits cadeaux,
+      renvoyer<br>l&rsquo;ascenseur et d&eacute;ployer des tr&eacute;sors de
+      politesse.</p>
+    usuel: >-
+      <p><strong>Red-tape (1 +demi-niveau).</strong> Ton aventurier trouve un
+      moyen<br>de gagner du temps : un rendez-vous avant le prochain
+      r&eacute;pit ou<br>repos au lieu du mois prochain, une r&eacute;ponse
+      rapide d&rsquo;un service<br>client&egrave;le, une intervention dans la
+      journ&eacute;e d&rsquo;agents de service et<br>ainsi de suite. Cet usuel
+      fonctionne aussi dans des environnements<br>moins bureaucratiques ou
+      commerciaux et plus clandestins<br>ou criminels de nature.</p>
+    prouesse: >-
+      <p><strong>Faveur (1PA). </strong>Ton aventurier obtient une faveur ou une
+      intercession<br>d&rsquo;une personne puissante et bien plac&eacute;e - il
+      y aura peut-&ecirc;tre plus<br>tard un prix &agrave; payer ou un ascenseur
+      &agrave; renvoyer.</p>
+    RR: '1'
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: I5Y9PmazeR8PftmY
+  templateSystemUniqueVersion: 3029886476
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.1.1
+  createdTime: 1732291056187
+  modifiedTime: 1732291056187
+  lastModifiedBy: z78nMmVCAe8LCaSO
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!I5Y9PmazeR8PftmY'
+

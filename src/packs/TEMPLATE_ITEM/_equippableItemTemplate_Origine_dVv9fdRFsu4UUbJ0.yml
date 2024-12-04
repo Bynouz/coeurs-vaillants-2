@@ -1,0 +1,672 @@
+_id: dVv9fdRFsu4UUbJ0
+name: Origine
+type: _equippableItemTemplate
+system:
+  hidden: []
+  header:
+    contents: []
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: choix01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour choix 1
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_01
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+            - null
+          - - key: choix02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour choix 2
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - key: choix_02
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: checkbox
+              label: ''
+              size: full-size
+              defaultChecked: false
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        cols: 2
+        rows: 4
+        layout: lc
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  templateSystemUniqueVersion: 4051763885
+  uniqueId: dVv9fdRFsu4UUbJ0
+flags:
+  custom-system-builder:
+    version: 3.2.4
+    templateHistory:
+      - - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - contents
+            - 1
+            - 1
+            - defaultValue
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - contents
+            - 0
+            - 1
+            - defaultValue
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - rows
+          lhs: 3
+          rhs: 4
+      - - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 3
+          item:
+            kind: 'N'
+            rhs:
+              - key: prouesse
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: ''
+                type: textArea
+                label: Prouesse
+                defaultValue: ''
+                size: full-size
+                style: dialog
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 0
+          lhs:
+            key: prouesse
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: textArea
+            label: Prouesse
+            defaultValue: ''
+            size: full-size
+            style: dialog
+          rhs: null
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - contents
+            - 1
+            - 1
+            - defaultValue
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - contents
+            - 0
+            - 1
+            - defaultValue
+      - - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 0
+          lhs: null
+          rhs:
+            key: choix02
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: textArea
+            label: Atour
+            defaultValue: ''
+            size: full-size
+            style: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - contents
+            - 1
+            - 1
+            - defaultValue
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - contents
+            - 1
+            - 0
+          lhs:
+            key: choix02
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: textArea
+            label: Atour
+            defaultValue: ''
+            size: full-size
+            style: dialog
+          rhs: null
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - contents
+            - 0
+            - 1
+            - defaultValue
+      - - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+          lhs: null
+          rhs:
+            key: choix_02
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: ''
+            size: full-size
+            defaultChecked: false
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - contents
+            - 1
+            - 1
+          lhs:
+            key: choix_02
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: ''
+            size: full-size
+            defaultChecked: false
+          rhs: null
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - contents
+            - 0
+            - 1
+            - defaultValue
+      - - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - defaultValue
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+          lhs: null
+          rhs:
+            key: choix_01
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: ''
+            size: full-size
+            defaultChecked: false
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - contents
+            - 0
+            - 1
+          lhs:
+            key: choix_01
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: checkbox
+            label: ''
+            size: full-size
+            defaultChecked: false
+          rhs: null
+      - - kind: A
+          path:
+            - body
+            - contents
+          index: 1
+          item:
+            kind: 'N'
+            rhs:
+              key: ''
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: table
+              contents:
+                - - key: choix01
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: ''
+                    type: textArea
+                    label: Atour
+                    defaultValue: ''
+                    size: full-size
+                    style: dialog
+                  - null
+                - - null
+                  - null
+                - - null
+                  - null
+                - - null
+              cols: 2
+              rows: 2
+              layout: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - defaultValue
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - defaultValue
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+          lhs:
+            key: ''
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: table
+            contents:
+              - - key: choix01
+                  cssClass: ''
+                  role: '0'
+                  permission: '0'
+                  tooltip: ''
+                  visibilityFormula: ''
+                  type: textArea
+                  label: Atour
+                  defaultValue: ''
+                  size: full-size
+                  style: dialog
+                - null
+              - - null
+                - null
+              - - null
+                - null
+              - - null
+            cols: 2
+            rows: 2
+            layout: ''
+          rhs: null
+      - - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+            - 0
+            - 0
+          lhs:
+            key: choix01
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: textArea
+            label: Atour
+            defaultValue: ''
+            size: full-size
+            style: dialog
+          rhs: null
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - defaultValue
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - defaultValue
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+          lhs: null
+          rhs:
+            key: choix01
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            visibilityFormula: ''
+            type: textArea
+            label: Atour
+            defaultValue: ''
+            size: full-size
+            style: dialog
+      - - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - defaultValue
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - defaultValue
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 0
+            - label
+          lhs: Atour
+          rhs: Atour choix 1
+      - - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - defaultValue
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 0
+            - label
+          lhs: Atour
+          rhs: Atour choix 2
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - defaultValue
+      - - kind: A
+          path:
+            - body
+            - contents
+          index: 1
+          item:
+            kind: D
+            lhs:
+              key: ''
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: table
+              contents:
+                - - null
+                  - null
+                - - null
+                  - null
+                - - null
+                  - null
+                - - null
+              cols: 2
+              rows: 2
+              layout: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 2
+            - 1
+            - defaultValue
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - 1
+            - defaultValue
+    templateHistoryRedo: []
+img: icons/svg/item-bag.svg
+effects: []
+folder: MKfDTzs1HtvBbbaf
+sort: 300000
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1732711742411
+  modifiedTime: 1732711742411
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_key: '!items!dVv9fdRFsu4UUbJ0'
+

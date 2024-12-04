@@ -1,0 +1,20 @@
+name: Armure
+type: Item
+color: null
+_id: ppEIS2aNQsi6jwmZ
+description: ''
+folder: dA8fFsZyV2h89NZw
+sorting: a
+sort: 300000
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+_key: '!folders!ppEIS2aNQsi6jwmZ'
+

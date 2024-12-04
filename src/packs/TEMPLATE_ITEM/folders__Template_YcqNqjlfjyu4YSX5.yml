@@ -1,0 +1,20 @@
+name: _Template
+sorting: a
+folder: null
+type: Item
+_id: YcqNqjlfjyu4YSX5
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1732711742349
+  modifiedTime: 1732711742556
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_key: '!folders!YcqNqjlfjyu4YSX5'
+

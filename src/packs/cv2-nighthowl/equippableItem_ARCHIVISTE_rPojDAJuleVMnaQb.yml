@@ -1,0 +1,187 @@
+folder: fiJbzGDzjGmah5Wd
+name: ARCHIVISTE
+type: equippableItem
+_id: rPojDAJuleVMnaQb
+img: modules/coeurs-vaillants-2/icone/night-howl/insigne.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: Ki1bSmsjyNY1FqQ4
+  props:
+    name: ARCHIVISTE
+    QQ: '1'
+    atour: >-
+      <p><strong>Civilisation de l&rsquo;&eacute;crit.</strong> Le monde que
+      fr&eacute;quente ton aventurier<br>est constitu&eacute; de livres,
+      d&rsquo;archives officielles, de journaux, de<br>blogs, de sites
+      d&rsquo;information, de productions culturelles et de<br>toutes sortes de
+      m&eacute;dias &eacute;crits, parl&eacute;s, illustr&eacute;s. Le cerveau
+      de ton<br>aventurier est parfaitement organis&eacute; pour ranger et
+      classer tout<br>&ccedil;a et s&rsquo;y retrouver
+      ais&eacute;ment.<br><br></p>
+    usuel: >-
+      <p><strong>&Eacute;rudition (1 +demi-niveau).</strong> Ton aventurier
+      demande &agrave; la<br>ma&icirc;tresse de jeu toutes informations
+      pertinentes sur un sujet<br>pr&eacute;cis, y compris ce qu&rsquo;il a pu
+      lire, voir ou entendre.</p>
+    prouesse: >-
+      <p><strong>Je sais (1PA).</strong> Ton aventurier &eacute;nonce un fait de
+      son invention &agrave;&nbsp;propos d&rsquo;un lieu, d&rsquo;un objet,
+      d&rsquo;une personne, d&rsquo;une corporation et ainsi&nbsp;de suite.
+      L&rsquo;information est certainement exacte mais peut-&ecirc;tre
+      incompl&egrave;te,&nbsp;&agrave; la discr&eacute;tion de la
+      ma&icirc;tresse de jeu.</p>
+    RR: '1'
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: rPojDAJuleVMnaQb
+  templateSystemUniqueVersion: 3029886476
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.1.1
+  createdTime: 1732291056187
+  modifiedTime: 1732291056187
+  lastModifiedBy: z78nMmVCAe8LCaSO
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!rPojDAJuleVMnaQb'
+

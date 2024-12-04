@@ -1,0 +1,20 @@
+name: Arme
+type: Item
+color: null
+_id: 9x6nISPr5u9iT4rr
+description: ''
+folder: dA8fFsZyV2h89NZw
+sorting: a
+sort: 400000
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+_key: '!folders!9x6nISPr5u9iT4rr'
+

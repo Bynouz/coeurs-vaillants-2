@@ -1,0 +1,73 @@
+_id: RY18iLR8JbylGoOD
+name: Chant
+type: _equippableItemTemplate
+system:
+  hidden: []
+  header:
+    contents: []
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: null
+    align: null
+    type: panel
+  body:
+    contents:
+      - key: chant_panel
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        contents:
+          - key: desc_text
+            cssClass: ''
+            role: '0'
+            permission: '0'
+            tooltip: ''
+            label: Description
+            defaultValue: ''
+            size: null
+            style: dialog
+            type: textArea
+        flow: vertical
+        align: center
+        type: panel
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: null
+    align: null
+    type: panel
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  templateSystemUniqueVersion: 3486212655
+  uniqueId: RY18iLR8JbylGoOD
+flags:
+  custom-system-builder:
+    version: 3.2.4
+img: icons/svg/item-bag.svg
+effects: []
+folder: MKfDTzs1HtvBbbaf
+sort: 1600000
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1732711742411
+  modifiedTime: 1732711742411
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_key: '!items!RY18iLR8JbylGoOD'
+

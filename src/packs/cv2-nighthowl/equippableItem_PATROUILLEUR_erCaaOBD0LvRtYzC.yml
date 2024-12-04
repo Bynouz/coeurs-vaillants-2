@@ -1,0 +1,186 @@
+folder: fiJbzGDzjGmah5Wd
+name: PATROUILLEUR
+type: equippableItem
+_id: erCaaOBD0LvRtYzC
+img: modules/coeurs-vaillants-2/icone/night-howl/insigne.webp
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Usuel ?
+        size: full-size
+        defaultChecked: true
+    key: custom_header
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Usage
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textField
+              label: Max
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: table
+        contents:
+          - - key: atour
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Atour
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+            - null
+          - - key: prouesse
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Prouesse
+              defaultValue: ''
+              size: full-size
+              style: dialog
+            - null
+        cols: 1
+        rows: 3
+        layout: lc
+    key: custom_body
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  template: Ki1bSmsjyNY1FqQ4
+  props:
+    name: PATROUILLEUR
+    QQ: '1'
+    atour: >-
+      <p><strong>D&eacute;cisif. </strong>En situation d&rsquo;urgence ou de
+      crise, au cours d&rsquo;une<br>confrontation arm&eacute;e, lors
+      d&rsquo;une catastrophe naturelle ou d&rsquo;un<br>accident majeur, les
+      gens suivent volontiers les ordres ou les<br>consignes de ton aventurier,
+      arr&ecirc;tent de paniquer et s&rsquo;organisent<br>selon ses
+      indications.<br><br></p>
+    usuel: >-
+      <p><strong>Pr&eacute;sence (1 +demi-niveau).</strong> Ton aventurier prend
+      la parole<br>de mani&egrave;re que tout le monde se sente oblig&eacute; de
+      l&rsquo;&eacute;couter s&eacute;rieusement.<br>Un figurant de niveau
+      &eacute;gal ou sup&eacute;rieur peut l&rsquo;interrompre<br>en
+      r&eacute;ussissant un jet de sauvegarde.<br><br></p>
+    prouesse: >-
+      <p><strong>Encadrement (1PA). </strong>Ton aventurier est plac&eacute;
+      &agrave; la t&ecirc;te d&rsquo;une &eacute;quipe<br>de flics en uniformes
+      et l&rsquo;organise de mani&egrave;re &agrave; mener une
+      op&eacute;ration<br>tactique &ndash; la qualit&eacute; du plan et sa
+      r&eacute;ussite ne d&eacute;pendent que de lui,<br>selon les circonstances
+      et les objectifs &agrave; remplir.</p>
+    RR: '1'
+    usuel_test: true
+  modifiers: []
+  unique: true
+  uniqueId: erCaaOBD0LvRtYzC
+  templateSystemUniqueVersion: 3029886476
+effects: []
+flags:
+  custom-system-builder:
+    version: 4.1.1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.1.1
+  createdTime: 1732291056187
+  modifiedTime: 1732291056187
+  lastModifiedBy: z78nMmVCAe8LCaSO
+sort: 0
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_key: '!items!erCaaOBD0LvRtYzC'
+

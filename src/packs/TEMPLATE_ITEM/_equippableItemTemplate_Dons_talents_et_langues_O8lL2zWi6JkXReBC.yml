@@ -1,0 +1,1123 @@
+_id: O8lL2zWi6JkXReBC
+name: Dons talents et langues
+type: _equippableItemTemplate
+system:
+  hidden: []
+  header:
+    contents:
+      - key: usuel_test
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: checkbox
+        label: Resources ?
+        size: full-size
+        defaultChecked: false
+    key: custom_header
+    cssClass: ''
+    role: 0
+    permission: 0
+    tooltip: ''
+    visibilityFormula: ''
+    type: panel
+    flow: vertical
+    align: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  body:
+    contents:
+      - key: ''
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: usuel_test >0
+        type: table
+        contents:
+          - - key: QQ
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: usuel_test >0
+              type: textField
+              label: Usage
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+            - key: RR
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: usuel_test >0
+              type: textField
+              label: Max
+              defaultValue: '0'
+              size: medium
+              charList: ''
+              autocomplete: ''
+          - - null
+            - null
+        cols: 2
+        rows: 1
+        layout: cc
+      - key: usuel
+        cssClass: ''
+        role: '0'
+        permission: '0'
+        tooltip: ''
+        visibilityFormula: ''
+        type: textArea
+        label: Usuel
+        defaultValue: ''
+        size: full-size
+        style: dialog
+    key: custom_body
+    cssClass: null
+    role: 0
+    permission: 0
+    tooltip: null
+    flow: vertical
+    align: ''
+    type: panel
+    visibilityFormula: ''
+    collapsible: false
+    defaultCollapsed: true
+    title: ''
+    titleStyle: default
+  display:
+    width: '600'
+    height: '600'
+    fix_size: false
+    pp_width: '150'
+    pp_height: '150'
+  templateSystemUniqueVersion: 2684111215
+  uniqueId: O8lL2zWi6JkXReBC
+flags:
+  custom-system-builder:
+    version: 3.2.4
+    templateHistory:
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - defaultValue
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 0
+            - maxLength
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - defaultValue
+        - kind: A
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+          index: 0
+          item:
+            kind: D
+            lhs:
+              key: desc_text
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Description
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 1
+            - contents
+            - 0
+            - 0
+            - maxLength
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - defaultValue
+        - kind: A
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+          index: 0
+          item:
+            kind: 'N'
+            rhs:
+              key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: usuel_test >0
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 1
+          item:
+            kind: D
+            lhs:
+              key: ''
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: usuel_test >0
+              type: table
+              contents:
+                - - key: QQ
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: usuel_test >0
+                    type: textField
+                    label: Usage
+                    defaultValue: '0'
+                    size: medium
+                    charList: ''
+                    autocomplete: ''
+                  - key: RR
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: usuel_test >0
+                    type: textField
+                    label: Max
+                    defaultValue: '0'
+                    size: medium
+                    charList: ''
+                    autocomplete: ''
+                - - null
+                  - null
+              cols: 2
+              rows: 1
+              layout: cc
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - key
+          lhs: usuel
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - type
+          lhs: textArea
+          rhs: table
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - label
+          lhs: Usuel
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - defaultValue
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - size
+          lhs: full-size
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - style
+          lhs: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+          rhs:
+            - - key: QQ
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textField
+                label: Usage
+                defaultValue: '0'
+                size: medium
+                charList: ''
+                autocomplete: ''
+              - key: RR
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textField
+                label: Max
+                defaultValue: '0'
+                size: medium
+                charList: ''
+                autocomplete: ''
+            - - null
+              - null
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - cols
+          rhs: 2
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - rows
+          rhs: 1
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - layout
+          rhs: cc
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - defaultValue
+        - kind: A
+          path:
+            - body
+            - contents
+          index: 2
+          item:
+            kind: 'N'
+            rhs:
+              key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: usuel_test >0
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: A
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+          index: 0
+          item:
+            kind: D
+            lhs:
+              key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: usuel_test >0
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - maxLength
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - defaultValue
+        - kind: E
+          path:
+            - body
+            - contents
+            - 2
+            - visibilityFormula
+          lhs: usuel_test >0
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - maxLength
+      - - kind: E
+          path:
+            - header
+            - contents
+            - 0
+            - label
+          lhs: Usuel ?
+          rhs: Resources ?
+        - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - defaultValue
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - maxLength
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - defaultValue
+        - kind: A
+          path:
+            - body
+            - contents
+          index: 2
+          item:
+            kind: D
+            lhs:
+              key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - key
+          lhs: don_panel
+          rhs: usuel
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - type
+          lhs: panel
+          rhs: textArea
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+          lhs: []
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - flow
+          lhs: vertical
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - align
+          lhs: left
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - collapsible
+          lhs: false
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - defaultCollapsed
+          lhs: true
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - title
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - titleStyle
+          lhs: default
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - label
+          rhs: Usuel
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - defaultValue
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - size
+          rhs: full-size
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - style
+          rhs: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - maxLength
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - defaultValue
+        - kind: A
+          path:
+            - body
+            - contents
+          index: 2
+          item:
+            kind: 'N'
+            rhs:
+              key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - key
+          lhs: usuel
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - visibilityFormula
+          lhs: ''
+          rhs: usuel_test >0
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - type
+          lhs: textArea
+          rhs: table
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - label
+          lhs: Usuel
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - defaultValue
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - size
+          lhs: full-size
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - style
+          lhs: dialog
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+          rhs:
+            - - key: QQ
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textField
+                label: Usage
+                defaultValue: '0'
+                size: medium
+                charList: ''
+                autocomplete: ''
+              - key: RR
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textField
+                label: Max
+                defaultValue: '0'
+                size: medium
+                charList: ''
+                autocomplete: ''
+            - - null
+              - null
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - cols
+          rhs: 2
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - rows
+          rhs: 1
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - layout
+          rhs: cc
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 0
+          item:
+            kind: D
+            lhs:
+              key: ''
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: usuel_test >0
+              type: table
+              contents:
+                - - key: QQ
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: usuel_test >0
+                    type: textField
+                    label: Usage
+                    defaultValue: '0'
+                    size: medium
+                    charList: ''
+                    autocomplete: ''
+                  - key: RR
+                    cssClass: ''
+                    role: '0'
+                    permission: '0'
+                    tooltip: ''
+                    visibilityFormula: usuel_test >0
+                    type: textField
+                    label: Max
+                    defaultValue: '0'
+                    size: medium
+                    charList: ''
+                    autocomplete: ''
+                - - null
+                  - null
+              cols: 2
+              rows: 1
+              layout: cc
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - defaultValue
+        - kind: A
+          path:
+            - body
+            - contents
+          index: 2
+          item:
+            kind: D
+            lhs:
+              key: usuel
+              cssClass: ''
+              role: '0'
+              permission: '0'
+              tooltip: ''
+              visibilityFormula: ''
+              type: textArea
+              label: Usuel
+              defaultValue: ''
+              size: full-size
+              style: dialog
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - key
+          lhs: ''
+          rhs: usuel
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - visibilityFormula
+          lhs: usuel_test >0
+          rhs: ''
+        - kind: E
+          path:
+            - body
+            - contents
+            - 1
+            - type
+          lhs: table
+          rhs: textArea
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - contents
+          lhs:
+            - - key: QQ
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textField
+                label: Usage
+                defaultValue: '0'
+                size: medium
+                charList: ''
+                autocomplete: ''
+              - key: RR
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textField
+                label: Max
+                defaultValue: '0'
+                size: medium
+                charList: ''
+                autocomplete: ''
+            - - null
+              - null
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - cols
+          lhs: 2
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - rows
+          lhs: 1
+        - kind: D
+          path:
+            - body
+            - contents
+            - 1
+            - layout
+          lhs: cc
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - label
+          rhs: Usuel
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - defaultValue
+          rhs: ''
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - size
+          rhs: full-size
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 1
+            - style
+          rhs: dialog
+        - kind: E
+          path:
+            - body
+            - contents
+            - 0
+            - type
+          lhs: panel
+          rhs: table
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 1
+          item:
+            kind: 'N'
+            rhs:
+              - null
+              - null
+        - kind: A
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+          index: 0
+          item:
+            kind: 'N'
+            rhs:
+              - key: QQ
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textField
+                label: Usage
+                defaultValue: '0'
+                size: medium
+                charList: ''
+                autocomplete: ''
+              - key: RR
+                cssClass: ''
+                role: '0'
+                permission: '0'
+                tooltip: ''
+                visibilityFormula: usuel_test >0
+                type: textField
+                label: Max
+                defaultValue: '0'
+                size: medium
+                charList: ''
+                autocomplete: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - flow
+          lhs: vertical
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - align
+          lhs: center
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - collapsible
+          lhs: false
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - defaultCollapsed
+          lhs: false
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - title
+          lhs: ''
+        - kind: D
+          path:
+            - body
+            - contents
+            - 0
+            - titleStyle
+          lhs: default
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - cols
+          rhs: 2
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - rows
+          rhs: 1
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - layout
+          rhs: cc
+      - - kind: 'N'
+          path:
+            - header
+            - contents
+            - 0
+            - defaultValue
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 1
+            - maxLength
+        - kind: 'N'
+          path:
+            - body
+            - contents
+            - 0
+            - contents
+            - 0
+            - 0
+            - maxLength
+    templateHistoryRedo: []
+img: icons/svg/item-bag.svg
+effects: []
+folder: MKfDTzs1HtvBbbaf
+sort: 900000
+ownership:
+  default: 0
+  z78nMmVCAe8LCaSO: 3
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: custom-system-builder
+  systemVersion: 4.2.0
+  createdTime: 1732711742411
+  modifiedTime: 1732711742411
+  lastModifiedBy: z78nMmVCAe8LCaSO
+_key: '!items!O8lL2zWi6JkXReBC'
+
