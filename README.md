@@ -26,6 +26,7 @@ Il est conçu pour fonctionner exclusivement avec le système Custom System Buil
 
 Ce module est basé sur l'œuvre originale de John Grumph, créateur du jeu Cœurs Vaillants. 
 Un grand merci pour son travail et son autorisation de publier le système.
+Un grand merci aussi a Kristov pour sont aide dans la realease du système.  
 
 ## Remarques importantes
 
